@@ -44,8 +44,8 @@ if 'initialized' not in st.session_state:
     st.session_state.initialized = True
 
 # --- UI Aufbau ---
-st.set_page_config(layout="wide", page_title="Schauspiel-Trainingsgenerator")
-st.title("🎭 Schauspiel-Trainingsgenerator")
+st.set_page_config(layout="wide", page_title="Szenentrainer")
+st.title("🎭 Szenentrainer")
 
 if st.button("🧹 Alles zurücksetzen", type="primary"):
     reset_board()
@@ -108,7 +108,7 @@ choice = st.radio("Was möchtest du als Grundlage nutzen?", ["Neutraler Text", "
 if st.session_state.text_topic_content is None:
     if st.button("🎲 Vehikel auswählen", key="btn_text_topic"):
         cat_key = 'texte' if choice == "Neutraler Text" else 'themen'
-        prefix = "**Dein Text:**" if choice == "Neutraler Text" else "**Dein Impro-Thema:**"
+        prefix = "**Dein Text:**\n\n" if choice == "Neutraler Text" else "**Dein Impro-Thema:**\n\n"
         chosen_text = get_random_with_history(data[cat_key], st.session_state['hist_vehikel'], is_dict=False)
         st.session_state.text_topic_content = f"{prefix}{chosen_text}"
         st.rerun()
@@ -119,7 +119,7 @@ else:
     with c_btn:
          if st.button("🔄", key="btn_re_vehikel", help="Neu auswürfeln"):
              cat_key = 'texte' if choice == "Neutraler Text" else 'themen'
-             prefix = "**Dein Text:**\\n\\n" if choice == "Neutraler Text" else "**Dein Impro-Thema:**\\n\\n"
+             prefix = "**Dein Text:**\n\n" if choice == "Neutraler Text" else "**Dein Impro-Thema:**\n\n"
              chosen_text = get_random_with_history(data[cat_key], st.session_state['hist_vehikel'], is_dict=False)
              st.session_state.text_topic_content = f"{prefix}{chosen_text}"
              st.rerun()
