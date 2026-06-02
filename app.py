@@ -108,7 +108,7 @@ choice = st.radio("Was möchtest du als Grundlage nutzen?", ["Neutraler Text", "
 if st.session_state.text_topic_content is None:
     if st.button("🎲 Vehikel auswählen", key="btn_text_topic"):
         cat_key = 'texte' if choice == "Neutraler Text" else 'themen'
-        prefix = "**Dein Text:**\\n\\n" if choice == "Neutraler Text" else "**Dein Impro-Thema:**\\n\\n"
+        prefix = "**Dein Text:**" if choice == "Neutraler Text" else "**Dein Impro-Thema:**"
         chosen_text = get_random_with_history(data[cat_key], st.session_state['hist_vehikel'], is_dict=False)
         st.session_state.text_topic_content = f"{prefix}{chosen_text}"
         st.rerun()
