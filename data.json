@@ -1,5 +1,55 @@
 {
   "verben": [
+      {
+      "base": "Du versuchst, den anderen zu einer überstürzten Beichte zu drängen, um deine eigene paranoide Ahnung endlich zu bestätigen.",
+      "details": [
+        "Psychologischer Druck: Erhöhe die Intensität deiner Präsenz mit jedem Satz. Lass den anderen spüren, dass das Netz sich unaufhaltsam zuzieht.",
+        "Keine Fluchtwege: Seziere die Antworten des anderen sofort nach logischen Widersprüchen und nutze sie im Subtext als psychologische Barrieren.",
+        "Die Falle des Mitgefühls: Projiziere eine falsche, milde Gesprächsbereitschaft, um den anderen dazu zu verleiten, seine Deckung vorzeitig aufzugeben.",
+        "Das Verrechnen von Pausen: Nutze jedes Zögern des anderen als Bestätigung deiner Theorie. Lass das Schweigen im Raum für dich arbeiten.",
+        "Das Schüren von Panik: Vermittle im Subtext die Gewissheit, dass die Wahrheit ohnehin bereits ans Licht gekommen ist und Leugnen alles nur noch schlimmer macht."
+      ]
+    },
+    {
+      "base": "Du willst den anderen subtil von dir abhängig machen, indem du seine tiefsten Selbstzweifel als unheilbar darstellst.",
+      "details": [
+        "Die Maske des Retters: Etabliere dich im Subtext als der einzige Mensch, der die vermeintlichen Unzulänglichkeiten des anderen ertragen und verstehen kann.",
+        "Destruktive Sezierung: Greife Scheinargumente des anderen auf und zerlege sie mit einer mitleidigen Sachlichkeit, die sein Fundament zum Einsturz bringt.",
+        "Das Entziehen von Bestätigung: Lasse den anderen im Unklaren darüber, ob er deine Erwartungen erfüllt. Halte emotionale Sicherheit wie eine rare Währung zurück.",
+        "Emotionale Monopolisierung: Schaffe eine psychologische Blase, in der nur noch deine Definition von Realität und richtigem Verhalten Gültigkeit besitzt.",
+        "Subtext der Hilflosigkeit: Transportiere mit jedem Wort die unterschwellige Botschaft: 'Ohne meine Führung bist du in dieser Welt komplett verloren.'"
+      ]
+    },
+    {
+      "base": "Du attackierst den moralischen Kern des anderen, um seine unerschütterliche Selbstgerechtigkeit ein für alle Mal zu zertrümmern.",
+      "details": [
+        "Ikonoklasmus: Betrachte das saubere Selbstbild des anderen als eine verlogene Maske, die du mit chirurgischer Präzision herunterreißen musst.",
+        "Die Demontage des Altars: Konfrontiere den anderen im Subtext permanent mit seinen eigenen, vergangenen Verfehlungen. Radiere seine moralische Instanz aus.",
+        "Scheinwerfer auf die Heuchelei: Behandle die edlen Motive, die der andere vorschiebt, als billige Schutzbehauptungen und entwerte sie im selben Moment.",
+        "Das Ausblutenlassen von Ausflüchten: Dulde keinerlei Relativierungen oder historische Rechtfertigungen. Halte den Fokus brutal auf dem aktuellen moralischen Versagen.",
+        "Der psychologische Tiefschlag: Suche nach dem einen wunden Punkt in seiner Biografie, von dem du weißt, dass er ihn moralisch sofort in die Knie zwingt."
+      ]
+    },
+    {
+      "base": "Du versuchst, eine unüberwindbare emotionale Distanz aufzubauen, um dich vor der drohenden Verletzung durch den anderen zu schützen.",
+      "details": [
+        "Die emotionale Quarantäne: Ziehe dich gedanklich in einen unzugänglichen, inneren Schutzbunker zurück. Die Worte des anderen dürfen deine Haut nicht mehr berühren.",
+        "Das Einfrieren der Resonanz: Verweigere dem anderen jegliches emotionale Echo. Reagiere auf seine Spitzen mit einer totalen, inneren Durchlässigkeit, die ins Leere läuft.",
+        "Sachliche Abspeisung: Kill den emotionalen Subtext der Szene, indem du die Kommunikation auf eine rein bürokratische, funktionale Ebene herunterschraubst.",
+        "Auslöschen der Geschichte: Behandle den Menschen vor dir im Geist wie einen Fremden, mit dem dich absolut keine gemeinsame Vergangenheit oder Verpflichtung verbindet.",
+        "Die präventive Kälte: Signalisiere bei jedem Annäherungsversuch im Subtext: 'Du hast jegliches Recht verwirkt, an meiner inneren Welt teilzuhaben.'"
+      ]
+    },
+    {
+      "base": "Du buhlst im Subtext verzweifelt um ein Zeichen von echter Reue des anderen, ohne deine eigene verletzte Würde vollends aufzugeben.",
+      "details": [
+        "Der emotionale Tribut: Betrachte das Gespräch als eine Verhandlung, bei der du das nackte Eingeständnis der Schuld vom anderen als Mindesteinsatz forderst.",
+        "Das Warten auf den Bruch: Scanne die Fassade des anderen manisch nach dem kleinsten Zeichen von Scham oder Unsicherheit. Das ist dein eigentliches Ziel.",
+        "Maskierter Stolz: Verberge deine extreme innere Bedürftigkeit nach einer Entschuldigung hinter einer unnahbaren, fast schon hochmütigen Maske.",
+        "Verschärfung des Unrechts: Rufe dem anderen im Subtext permanent das Ausmaß der Verletzung vor Augen, um sein moralisches Gewissen unter unerträglichen Druck zu setzen.",
+        "Das Spiel mit dem Abbruch: Lass im Raum die unterschwellige Drohung mitschwingen, dass dies die absolut letzte Chance ist, bevor das Band zwischen euch für immer reißt."
+      ]
+    },
     {
       "base": "Du versuchst, den anderen von deiner moralischen Überlegenheit zu überzeugen.",
       "details": [
@@ -149,9 +199,162 @@
         "Radikale innere Distanz: Betrachte den Menschen vor dir als Fremden, mit dem dich absolut nichts mehr verbindet. Lösche die gemeinsame Geschichte im Geist.",
         "Die präventive Abweisung: Signalisiere bei jedem Ansatz einer Erklärung im Subtext: 'Es ist zu spät. Nichts, was du sagst, kann die Realität noch verändern.'"
       ]
+    },
+    {
+    "base": "Du versuchst, das tiefe Vertrauen des anderen zu missbrauchen, um an eine lebenswichtige Information zu kommen.",
+    "details": [
+      "Innere Kälte: Trenne dich emotional von der Person. Betrachte ihre Zuneigung als rein mechanischen Hebel, den du präzise ansetzen musst.",
+      "Die Illusion der Sicherheit: Schaffe durch deine Haltung eine derart geschützte Atmosphäre, dass der andere das Gefühl bekommt, bei dir absolut sicher zu sein.",
+      "Aushorchen im Subtext: Lass deine Fragen wie beiläufige Anteilnahme klingen, während du innerlich jedes Wort auf Goldwaagen legst.",
+      "Taktischer Vertrauensvorschuss: Gib im Subtext ein (erfundenes) intimes Geheimnis von dir preis, um den evolutionären Drang des anderen zur Gegenseitigkeit zu triggern.",
+      "Der psychologische Zugriff: Warte geduldig auf den Moment, in dem der andere emotional lockerlässt, um im Subtext die Schlinge zuzuziehen."
+    ]
+    },
+    {
+      "base": "Du willst den anderen spüren lassen, dass er für dich Luft ist, ohne den Raum zu verlassen oder das Gespräch abzubrechen.",
+      "details": [
+        "Psychische Auslöschung: Entziehe dem anderen im Geiste jeglichen menschlichen Status. Er ist für dich kein Gegner mehr, sondern ein unbelebter Gegenstand im Raum.",
+        "Das visuelle Nichts: Blicke durch den anderen hindurch, als wäre er aus Glas. Fixiere Punkte knapp hinter oder neben ihm, um seine Präsenz zu leugnen.",
+        "Emotionale Eiszeit: Jede emotionale Spitze, jede Wut und jede Träne des anderen verpuffen an dir wie an einer sterilen Laborwand. Keine Resonanz.",
+        "Minimale Energie-Rückgabe: Antworte nur mit dem absolut unumgänglichen Minimum an psychischer Energie. Lass seine Sätze im leeren Raum verhungern.",
+        "Die Arroganz des Fokus: Lenke deine Aufmerksamkeit mit einer derart obsessiven Intensität auf eine Nebensächlichkeit, dass die Existenz des anderen daneben verblasst."
+      ]
+    },
+    {
+      "base": "Du versuchst, den anderen von einer absurden Schuld freizusprechen, um eine irreversible Macht über ihn zu gewinnen.",
+      "details": [
+        "Der Erlöser-Komplex: Nimm im Subtext die Position einer absoluten, fast schon spirituellen Instanz ein. Du bist der Einzige, der ihn retten kann.",
+        "Das Konstruieren der Last: Rede dem anderen seine Schuld nicht aus, sondern mache sie im Gegenteil erst richtig groß, um dich danach als einziger Ausweg anzubieten.",
+        "Die Fesseln der Milde: Verpacke deine Vergebung in eine derart erdrückende, gütige Großzügigkeit, dass der andere psychisch komplett unter deiner Schuld begraben wird.",
+        "Kognitive Dissonanz erzeugen: Verwirre den moralischen Kompass des anderen, bis er nicht mehr weiß, was richtig oder falsch ist, und blind deiner Definition vertraut.",
+        "Das unsichtbare Band: Schaffe im Subtext die unumstößliche Gewissheit: 'Ab jetzt gehört deine Integrität mir, weil ich dein Geheimnis verwalte.'"
+      ]
+    },
+    {
+      "base": "Du willst den anderen dazu bringen, die Verantwortung für eine gemeinsame Katastrophe allein zu übernehmen.",
+      "details": [
+        "Die weiße Weste: Überzeuge dich im tiefsten Inneren selbst davon, dass du das eigentliche Opfer der Situation bist. Deine Weste muss in deiner Vorstellung makellos sein.",
+        "Schuldumleitung durch Isolation: Schneide dem anderen im Subtext jeden mentalen Fluchtweg ab. Zeige ihm auf, dass er der einzige logische Sündenbock ist.",
+        "Erpresserischer Appell: Nutze seine Liebe oder Loyalität zu dir als Waffe. 'Wenn du mich liebst, fängst du diese Kugel für mich ab.'",
+        "Taktischer Rückzug: Entziehe ihm deine Solidarität in dem Moment, in dem das Gespräch brenzlig wird. Lass ihn psychisch allein im Regen stehen.",
+        "Das psychologische Fallbeil: Präsentiere die totale Opferung seinerseits als den einzig rationalen, vernünftigen Weg, um das größere Ganze zu retten."
+      ]
+    },
+    {
+      "base": "Du buhlst im Subtext um die offene Verachtung des anderen, weil dir seine Wut lieber ist als seine Gleichgültigkeit.",
+      "details": [
+        "Die Sucht nach Reibung: Betrachte die Harmonie als den absoluten emotionalen Tod. Du brauchst den Konflikt, um dich überhaupt lebendig zu fühlen.",
+        "Provokation des Ekels: Suche nach den feinsten moralischen oder persönlichen Werten des anderen und verletze sie im Subtext mit einer kalkulierten Beiläufigkeit.",
+        "Der Märtyrer-Status: Dränge den anderen so lange in die Enge, bis er dich unfair attackiert, damit du dich im Anschluss im Gefühl des ungerechten Schmerzes sonnen kannst.",
+        "Grenzüberschreitung als Hilferuf: Treibe den Subtext so weit ins Toxische, bis der andere gezwungen ist, eine radikale emotionale Grenze zu ziehen.",
+        "Der destruktive Sog: Versuche, den anderen auf dein energetisches Niveau herunterzuziehen. Er soll genauso leiden und toben wie das Chaos in deiner Brust."
+      ]
     }
   ],
+
+
+  
   "umstaende": [
+      {
+      "base": "Im Nebenraum schläft eine hochempfindliche, kranke Person, die beim geringsten Lärm aufwachen und kollabieren würde.",
+      "details": [
+        "Akustisches Damoklesschwert: Das Wissen um die extreme Hörbarkeit jedes Atemzugs bestimmt deinen Fokus. Lautstärke ist eine physische Gefahr.",
+        "Erzwungener Minimalismus: Die Notwendigkeit, absolut leise zu sein, zwingt dich zu einer enormen Komprimierung deiner körperlichen und stimmlichen Energie.",
+        "Das Pulverfass der Stille: Die Unfähigkeit, emotional durchzustarten, staut die Intensität im Körper an. Die Wut oder Verzweiflung muss im Subtext implodieren.",
+        "Körperlicher Staudamm: Jede heftige Geste, jedes Aufstampfen wird biologisch sofort im Keim erstickt. Du funktionierst unter einer permanenten Vollbremsung.",
+        "Existenzielle Achtsamkeit: Deine Aufmerksamkeit ist ununterbrochen geteilt zwischen dem Partner im Raum und der lauschenden Stille hinter der Wand."
+      ]
+    },
+    {
+      "base": "Du leidest unter einem akuten, unkontrollierbaren Muskelzittern oder Schüttelfrost infolge eines extremen Adrenalinschubs.",
+      "details": [
+        "Der körperliche Verrat: Dein Organismus verweigert dir den Gehorsam. Du musst immense psychische Energie aufwenden, um die physische Kontrolle zu wahren.",
+        "Kampf um energetische Kontrolle: Das Zittern droht deine Absichten und deine Schwäche offenzulegen. Du musst deine Sätze wie gegen einen physischen Widerstand herauspressen.",
+        "Physisches Ventil: Die unterdrückte körperliche Unruhe lädt den Subtext mit einer unheimlichen, vibrierenden Grundspannung auf. Hochdruck unter der Decke.",
+        "Maskierung des Kontrollverlusts: Versuche mit aller Kraft, dem Partner gegenüber das Bild der absoluten, unerschütterlichen Stabilität aufrechterhalten zu wollen.",
+        "Rohe Präsenz: Der biologische Ausnahmezustand radiert alle eitlen Formspielereien aus. Du bist gezwungen, radikal pragmatisch und ehrlicher zu agieren."
+      ]
+    },
+    {
+      "base": "Du bist an einen Stuhl oder Raum gefesselt/fixiert und kannst deine Position physisch um keinen Millimeter verändern.",
+      "details": [
+        "Die erzwungene Statik: Die totale körperliche Unbeweglichkeit erzeugt einen massiven inneren Staudamm. Die blockierte Energie fließt zu 100 % in den Blick und den Subtext.",
+        "Psychologischer Staudamm: Da du nicht weichen oder physisch angreifen kannst, wird jede verbale Taktik zu einem existenziellen Instrument über Leben und Tod.",
+        "Das Auge als Waffe: Dein Blick ist dein einziges territoriales Werkzeug. Fixiere das Gegenüber, um den Raum psychologisch trotzdem zu dominieren.",
+        "Ausgelieferte Geometrie: Das Gefühl der physischen Wehrlosigkeit triggert eine unterschwellige, animalische Wachsamkeit. Jeder Schritt des anderen ist eine potenzielle Bedrohung.",
+        "Konzentration des Willens: Nutze die Einschränkung, um deine psychologischen Angriffe oder Verteidigungen umso schärfer, ruhiger und fokussierter zu platzieren."
+      ]
+    },
+    {
+      "base": "Du hast soeben erfahren, dass dein Telefon oder deine gesamte digitale Identität in diesem Moment gehackt und ausspioniert wird.",
+      "details": [
+        "Digitale Nacktheit: Das Gefühl, dass eine unsichtbare Instanz zeitgleich Einblick in deine tiefsten Geheimnisse hat, erzeugt ein extremes inneres Paranoia-Gefühl.",
+        "Paranoider Filter: Jedes Wort, das du in diesem Raum sprichst, wird gedanklich sofort darauf geprüft, wie es für die unsichtbaren Beobachter da draußen klingen muss.",
+        "Die unsichtbare Bedrohung: Deine Aufmerksamkeit ist gespalten. Der eigentliche Feind sitzt nicht vor dir, sondern lauert als abstrakte Katastrophe im Hintergrund.",
+        "Verlust des Rückzugsorts: Das Gefühl der totalen Entblößung schnürt dir die emotionale Kehle zu. Du fühlst dich psychisch komplett umstellt.",
+        "Panik unter der Oberfläche: Du musst das Bild der alltäglichen Normalität wahren, während in deinem Kopf bereits das Szenario deiner kompletten Vernichtung abläuft."
+      ]
+    },
+    {
+      "base": "Ein unerträglicher, stechender Geruch oder blendendes, flackerndes Notlicht im Raum sabotiert permanent deine Sinne.",
+      "details": [
+        "Sensorische Folter: Die feindselige Umgebung dringt als permanenter Störreiz in dein Nervensystem ein. Deine kognitive Kapazität ist drastisch reduziert.",
+        "Aggression des Raumes: Die Frustration über den äußeren Störfaktor, den du nicht kontrollieren kannst, färbt unwillkürlich deine Haltung gegenüber dem Partner.",
+        "Der zerrissene Fokus: Jedes Mal, wenn das Gespräch an psychologischer Tiefe gewinnt, reißt dich der sensorische Reiz heraus. Du musst das Fundament immer wieder neu aufbauen.",
+        "Nervlicher Verschleiß: Die permanente Reizüberflutung zermürbt deine Geduld im Eiltempo. Das Gespräch mutiert in Rekordzeit zu einem nervösen Pulverfass.",
+        "Kampf gegen die Ohnmacht: Du musst energetisch massiv übersteuern, um überhaupt gedanklich beim Partner durchzudringen und dein Ziel nicht aus den Augen zu verlieren."
+      ]
+    },  
+    {
+      "base": "Ein extremes, unvorhersehbares Wetterphänomen schneidet euch akut und komplett von der Außenwelt ab.",
+      "details": [
+        "Naturkraft als Bedrohung: Das Bewusstsein über die Naturgewalt direkt vor dem Fenster wächst mit jeder Sekunde. Die Zivilisation ist weit weg.",
+        "Klaustrophobische Enge: Der Raum wird psychisch immer kleiner. Es gibt keinen Fluchtweg, du bist gezwungen, diesen Konflikt hier und jetzt auszusitzen.",
+        "Schwindende Ressourcen: Im Subtext schwingt die paranoide Frage mit: Wie lange reicht die Energie, die Wärme, die Sicherheit, wenn das hier anhält?",
+        "Instabiles Umfeld: Jedes Knacken im Gebälk, jede Erschütterung des Raumes greift direkt dein Nervensystem an und splittet deine Aufmerksamkeit.",
+        "Fokus auf das nackte Jetzt: Die äußere Bedrohung radiert alle langfristigen Pläne aus. Nur noch das unmittelbare Überleben im Raum zählt."
+      ]
+    },
+    {
+      "base": "Du trägst einen unbezahlbaren, hochgradig zerbrechlichen Gegenstand bei dir, der unter keinen Umständen beschädigt werden darf.",
+      "details": [
+        "Konstante Verlustangst: Der Gegenstand ist dein absoluter wunder Punkt. Seine potenzielle Zerstörung fühlt sich im Kopf an wie dein eigener Untergang.",
+        "Vorsicht als Dauerzustand: Die physische Präsenz des Objekts zwingt dein Nervensystem in eine permanente Abwehrhaltung gegen jede plötzliche Dynamik im Raum.",
+        "Fokusspaltung: Du verhandelst nicht nur mit dem Partner, du verhandelst ununterbrochen mit der Schwerkraft und der Verletzlichkeit des Objekts.",
+        "Der Partner als Bedrohung: Jede unbedachte Bewegung oder Annäherung des anderen wird von dir sofort als potenzieller Anschlag auf den Gegenstand gewertet.",
+        "Paranoide Sicherung: Nutze deine gesamte psychische Energie, um das Objekt unbemerkt vor den Augen und dem Zugriff des anderen zu schützen."
+      ]
+    },
+    {
+      "base": "Du hast seit 48 Stunden nicht geschlafen und befindest dich im Zustand einer zittrigen, hyperaktiven Nervosität.",
+      "details": [
+        "Die falsche Energie: Dein Körper läuft auf purem Adrenalin und Notstrom. Du bist künstlich wach, aber deine neuronale Substanz ist komplett erschöpft.",
+        "Halluzinatorische Schärfe: Du nimmst Geräusche und Blicke des anderen übertrieben laut und bedrohlich wahr. Die Realität bekommt Risse.",
+        "Schwindende Impulskontrolle: Der Mangel an Schlaf radiert deine sozialen Hemmungen aus. Deine Emotionen schießen unkontrolliert und ungefiltert nach oben.",
+        "Der drohende Absturz: Unter der nervösen Hyperaktivität lauert die panische Angst, im nächsten Moment einfach physisch ohnmächtig zu werden.",
+        "Filterlose Artikulation: Du hast keine Kraft mehr für diplomatische Schleifen. Die Gedanken brechen unvollständig und mit brutaler Direktheit aus dir heraus."
+      ]
+    },
+    {
+      "base": "Der Ort, an dem ihr euch befindet, ist mit einer zutiefst schmerzhaften, traumatischen Erinnerung verknüpft.",
+      "details": [
+        "Das Echo des Raumes: Die Wände, die Möbel, das Licht – alles hier triggert in dir die Vergangenheit. Die Gegenwart verschwimmt mit dem alten Schmerz.",
+        "Der permanente Drang zur Flucht: Dein biologisches System schreit ununterbrochen: 'Raus hier!'. Jede Sekunde des Bleibens kostet dich immense Willenskraft.",
+        "Sensorische Überforderung: Der Geruch oder die Atmosphäre des Raumes schnürt dir die emotionale Kehle zu. Du kämpfst um deinen Atem.",
+        "Geister der Vergangenheit: Du projizierst das damalige Drama unwillkürlich auf das aktuelle Gespräch mit dem Partner. Die Fronten vermischen sich.",
+        "Emotionale Dissonanz: Versuche verzweifelt, den alten Schmerz wegzudrücken, um in der aktuellen Situation handlungsfähig zu bleiben. Hochspannung unter der Maske."
+      ]
+    },
+    {
+      "base": "Du stehst unter der akuten Androhung einer existenziellen, sozialen oder juristischen Vernichtung, die minütlich eintreffen kann.",
+      "details": [
+        "Das Damoklesschwert: Das Wissen, dass in diesem Moment irgendwo eine Entscheidung über dich gefällt wird, lähmt deine langfristige Denkfähigkeit.",
+        "Die letzte Patrone: Dieses Gespräch ist deine absolut letzte Chance, bevor die Katastrophe über dich hereinbricht. Der Einsatz ist zu 100 % existenziell.",
+        "Kontrollzwang: Jedes kleinste Detail, das im Gespräch schiefläuft, fühlt sich an wie der finale Dominostein, der deinen Untergang einleitet.",
+        "Existenzieller Nihilismus: Die extreme Bedrohung verleiht dir eine gefährliche 'Alles-egal'-Attitüde. Wenn du fällst, reißt du alles mit nieder.",
+        "Das Rasen des Pulses: Deine innere Uhr tickt dreimal so schnell. Du musst dein Ziel mit dem Partner erzwingen, bevor der Hammer fällt."
+      ]
+    },
     {
       "base": "Ihr befindet euch in einer Umgebung, in der ihr unter keinen Umständen von Dritten gehört werden dürft.",
       "details": [
@@ -303,7 +506,114 @@
       ]
     }
   ],
+
+
+
+
+
+
+  
   "beziehungen": [
+      {
+      "base": "Ihr seid zwei Spione im Kalten Krieg, von denen einer die wahre Identität des anderen enttarnt hat, aber das offizielle Protokoll wahren muss.",
+      "details": [
+        "Das tödliche Pokerface: Beide wissen um die Wahrheit, aber ein einziges offenes Wort würde das sofortige Todesurteil für einen von beiden bedeuten.",
+        "Codierte Vernichtung: Euer Text ist ein hochkomplexes, paranoides Schachspiel. Jede banale Floskel transportiert im Subtext eine verdeckte, existenzielle Drohung.",
+        "Das Netz des Protokolls: Ihr versteckt euch hinter einer eisigen, professionellen Höflichkeit, die als Schutzschild vor dem endgültigen Abgrund dient.",
+        "Das Taxieren der Fluchtwege: Beobachte jede Mikromimik des Partners wie ein Raubtier. Bereite dich im Geist ununterbrochen auf den physischen Erstschlag vor.",
+        "Die Einsamkeit des Wissens: Die absolute Entfremdung. Ihr seid euch intellektuell extrem nah, aber das System hat eine unüberwindbare, tödliche Mauer zwischen euch errichtet."
+      ]
+    },
+    {
+      "base": "Ihr seid ein alternder, stolzer Handwerksmeister und sein hochbegabter, aber rebellischer Lehrling, der den Betrieb heimlich aufkaufen will.",
+      "details": [
+        "Der Generations-Clash: Das schmerzhafte Aufeinanderprallen von jahrzehntelanger Tradition und unbarmherziger, moderner Marktrealität.",
+        "Kampf um das Erbe: Der Meister verteidigt seine Lebensleistung und Definitionsmacht; der Lehrling blickt mit einer kalten Arroganz auf die vermeintlich veralteten Methoden.",
+        "Die Klinge des Könnens: Trotz des tiefen Konflikts schätzt ihr die fachliche Genialität des Gegners insgeheim als extrem gefährlich ein. Erzwungener Respekt.",
+        "Subtext der Entwertung: Der Meister versucht den Lehrling permanent als unreifen Jungen abzustempeln; der Lehrling deplatziert die Autorität des Meisters im Raum.",
+        "Die verletzte Ehre: Der Vorwurf der Illoyalität steht im Raum. Das Gespräch wird im Subtext zu einem erbitterten Kampf um Stolz und Anerkennung."
+      ]
+    },
+    {
+      "base": "Ihr seid ein entfremdetes Ehepaar, das aus rein steuerlichen und gesellschaftlichen Gründen das Bild der perfekten Vorzeigeehe wahren MUSS.",
+      "details": [
+        "Die goldene Vitrine: Die Liebe ist seit Jahren tot, übrig geblieben ist eine hochpräzise, bürokratische Zweckgemeinschaft. Ein permanenter emotionaler Krampf.",
+        "Die Bürokratie der Intimität: Ihr bewegt euch umeinander wie zwei fremde Angestellte in einer Firma. Jede echte Nähe ist aus dem System evakuiert.",
+        "Zynische Absprachen: Jeder Versuch einer echten, emotionalen Klärung wird sofort durch eine sarkastische, geschäftsmäßige Bemerkung im Keim erstickt.",
+        "Die Kälte der Konvention: Der Stellvertreterkrieg. Ihr verpackt eure existenzielle Entfremdung in banale Diskussionen über Termine, Finanzen oder Repräsentation.",
+        "Der stumme Hass: Das unerträgliche Gewicht der gemeinsamen Jahre, die wie eine bleierne Last auf jeder Silbe des Textes liegen."
+      ]
+    },
+    {
+      "base": "Ihr seid zwei Überlebende eines Sekten-Massakers, von denen einer den Verdacht hegt, der andere habe damals die Behörden/Täter hineingelassen.",
+      "details": [
+        "Das Trauma-Band: Die Intensität des gemeinsamen Erlebens schweißt euch enger zusammen als alles andere, ist aber gleichzeitig komplett vergiftet.",
+        "Der Schatten des Verrats: Hinter jedem Wort und jedem Blick lauert der Generalverdacht der ultimativen Mitschuld am Untergang eurer alten Welt.",
+        "Das Sezieren des Überlebens: Warum hast ausgerechnet du überlebt? Das Gespräch wird im Subtext zu einem verdeckten, paranoiden Verhör über die Vergangenheit.",
+        "Sprachlosigkeit der Schuld: Ihr sprecht dieselbe spirituelle Sprache von damals, aber die Symbole sind heute mit purem Horror besetzt. Tiefe Unsicherheit.",
+        "Die paranoide Nähe: Ein permanenter Hochseilakt zwischen der tiefen Sehnsucht nach geteiltem Trost und der nackten Angst vor dem potenziellen Mörder neben dir."
+      ]
+    },
+    {
+      "base": "Es ist die asymmetrische Dynamik zwischen einem manipulativen Strafverteidiger und seinem hochgradig labilen, unschuldigen Mandanten.",
+      "details": [
+        "Das juristische Würgehals-Gefälle: Der Anwalt nutzt seine rhetorische Überlegenheit und die existenzielle Panik des Mandanten, um die absolute Kontrolle zu behalten.",
+        "Die Konstruktion der Wahrheit: Dem Anwalt geht es nicht um Moral, sondern um eine wasserdichte Story für das Gericht. Er biegt die Wahrnehmung des Mandanten zurecht.",
+        "Ausbeutung der Angst: Der Anwalt setzt die drohende Haftstrafe im Subtext gezielt als psychologisches Druckmittel ein, um bedingungslose Gefolgschaft zu erzwingen.",
+        "Das Schild der Paragraphen: Die sterile, juristische Fachsprache des Anwalts dient als perfekte Waffe, um die menschliche Verzweiflung des Mandanten abzublocken.",
+        "Psychologische Geiselnahme: Der Mandant spürt instinktiv, dass er deformiert wird, ist aber durch seine Hilflosigkeit zu einer absolut unterwürfigen Loyalität verdammt."
+      ]
+    },  
+    {
+      "base": "Ihr seid zwei ehemals beste Freunde, von denen einer die große Lebensliebe des anderen geheiratet hat.",
+      "details": [
+        "Die stumme Rivalität: Unter jedem Lächeln und jeder Alltagsfloskel brodelt der unaufgelöste, lebenslange Vorwurf des ultimativen Verrats.",
+        "Das Minenfeld der Nostalgie: Alte gemeinsame Erinnerungen dürfen nicht berührt werden, da sie sofort die Wunde aufreißen würden. Vorsichtiges Tasten im Text.",
+        "Die Fassade des Glücks: Derjenige, der die Liebe bekommen hat, muss permanent beweisen, dass es das wert war. Der andere seziert dieses Glück auf Risse.",
+        "Die ungestillte Sehnsucht: Im Subtext schwingt auf beiden Seiten die Trauer über den Verlust der tiefsten Freundschaft eures Lebens mit.",
+        "Status-Verschiebung: Das Gespräch wird zu einem verdeckten Kampf darum, wer von beiden heute das erfülltere, überlegenere Leben führt."
+      ]
+    },
+    {
+      "base": "Ihr seid ein alternder Pfleger und ein ehemals mächtiger, tyrannischer Patient, dessen totale Abhängigkeit nun im Raum steht.",
+      "details": [
+        "Umkehrung der Machtverhältnisse: Der Tyrann von damals ist heute körperlich ausgeliefert. Der Pfleger besitzt die absolute Definitionsmacht über die Situation.",
+        "Scham als Barriere: Der Patient kämpft verbissen darum, den Rest seiner Würde und Autorität zu wahren, während sein Körper ihn im Stich lässt.",
+        "Professionelle Kälte: Der Pfleger nutzt die klinische Sachlichkeit als perfekte Waffe, um dem Patienten seine aktuelle Machtlosigkeit spürbar zu machen.",
+        "Das Echo der Angst: Der Pfleger spürt trotz allem immer noch die unterschwellige, alte Einschüchterung durch die Persönlichkeit des Tyrannen.",
+        "Subtile Rache: Jede kleine Verzögerung, jede Spur von Ignoranz im Subtext des Pflegers ist eine späte Quittung für jahrelange Demütigungen."
+      ]
+    },
+    {
+      "base": "Ihr seid zwei Mitglieder einer isolationistischen Sekte, von denen einer heimlich plant, in dieser Nacht auszusteigen.",
+      "details": [
+        "Paranoide Komplizenschaft: Ihr seid in einem System aufgewachsen, das Abweichung mit dem Tod oder totaler Ächtung bestraft. Maximales Misstrauen.",
+        "Die Angst vor Verrat: Weiß der andere bereits, was ich vorhabe? Ist das hier ein Test der Führung? Jede Nuance in seiner Stimme wird toxisch analysiert.",
+        "Indoktrinierte Schuldgefühle: Der Aussteiger kämpft gegen seine eigene tiefsitzende Konditionierung, dass sein Fluchtplan eine Todsünde ist.",
+        "Der ideologische Riss: Ihr sprecht durch die Filter des Glaubenssystems. Ein einziger 'weltlicher' Gedanke im Subtext kann die totale Katastrophe bedeuten.",
+        "Der letzte Rettungsversuch: Wenn der andere dir wichtig ist, versuchst du im Subtext verzweifelt, ihn mitzuziehen, ohne dich selbst zu entlarven."
+      ]
+    },
+    {
+      "base": "Ihr seid ein Whistleblower und der CEO des betroffenen Weltkonzerns, Minuten vor einer alles entscheidenden Pressekonferenz.",
+      "details": [
+        "Asymmetrischer Krieg: Auf der einen Seite die nackte, moralische Wahrheit eines Einzelnen; auf der anderen die unbarmherzige Macht eines Milliarden-Apparats.",
+        "Bestechung im Subtext: Der CEO verhandelt nicht über Fakten, sondern versucht, den Preis des Whistleblowers herauszufinden. Alles ist käuflich.",
+        "Existenzielle Bedrohung: Beide wissen, dass nach dieser Pressekonferenz das Leben eines von beiden in Trümmern liegen wird. Maximaler Einsatz.",
+        "Die Maske der Souveränität: Der CEO versucht, den Whistleblower wie eine unbedeutende, lästige Fliege zu behandeln, um seine innere Panik zu verbergen.",
+        "Das finale Duell: Der Text ist nur das höfliche Geplänkel vor dem gegenseitigen, existenziellen Vernichtungsschlag."
+      ]
+    },
+    {
+      "base": "Ihr seid zwei Adoptivgeschwister, die erst vor einer Woche durch einen DNA-Test von ihrer echten, biologischen Verwandtschaft erfahren haben.",
+      "details": [
+        "Erzwungene Intimität: Ihr sollt euch verhalten wie Familie, seid euch aber im Grunde vollkommen fremd. Ein permanenter psychologischer Krampf.",
+        "Das Fehlen gemeinsamer Codes: Es gibt keine geteilte Kindheit, keine gemeinsamen Witze. Ihr müsst die Sprache des anderen komplett neu lernen.",
+        "Identitätskrise: Der Anblick des anderen ist wie ein Blick in einen Zerrspiegel der eigenen Genetik. Das irritiert euer gesamtes Selbstbild.",
+        "Biologische Faszination: Beobachte den anderen manisch nach Ähnlichkeiten (Gestik, Stimme, Ticks), um das Unfassbare greifbar zu machen.",
+        "Die Angst vor Ablehnung: Der Wunsch, eine tiefe Bindung aufzubauen, kollidiert mit der panischen Angst, vom jeweils anderen nicht gewollt zu werden."
+      ]
+    },
     {
       "base": "Ihr seid Geschäftspartner, von denen einer den anderen um die gesamte Existenz heimlich betrogen hat.",
       "details": [
@@ -455,6 +765,12 @@
       ]
     }
   ],
+
+
+
+
+
+  
   "texte": [
     "Um die Kaffeemaschine zu entkalken, füllen Sie den Wassertank bis zur Markierung mit einer Mischung aus Wasser und Entkalker. Drücken Sie anschließend die Starttaste und warten Sie, bis der Vorgang vollständig abgeschlossen ist.",
     "Die morgigen Temperaturen bewegen sich voraussichtlich zwischen 12 und 15 Grad. Gegen Mittag ist mit leichten Regenschauern zu rechnen, die sich jedoch bis zum späten Nachmittag wieder verziehen werden. Der Wind weht schwach aus Nordwest.",
@@ -470,8 +786,48 @@
     "Dieser Tarif beinhaltet eine unbegrenzte Internetflatrate sowie Telefonate in alle nationalen Netze. Zusatzdienste wie Roaming im Nicht-EU-Ausland werden separat nach Minuten abgerechnet.",
     "Das Paket wurde heute Vormittag an den Logistikpartner übergeben und befindet sich derzeit im Verteilzentrum. Die voraussichtliche Zustellung erfolgt am morgigen Werktag zwischen 9 und 12 Uhr.",
     "Ein rechtwinkliges Dreieck ist dadurch definiert, dass einer seiner Innenwinkel exakt 90 Grad beträgt. Die dem rechten Winkel gegenüberliegende Seite wird als Hypotenuse bezeichnet.",
-    "Trennen Sie den Netzstecker, bevor Sie mit der Reinigung des Geräts beginnen. Verwenden Sie für die Oberfläche lediglich ein leicht angefeuchtetes, weiches Tuch ohne aggressive Reinigungsmittel."
+    "Trennen Sie den Netzstecker, bevor Sie mit der Reinigung des Geräts beginnen. Verwenden Sie für die Oberfläche lediglich ein leicht angefeuchtetes, weiches Tuch ohne aggressive Reinigungsmittel.",
+    "Die Haltbarkeit von ungeöffneten Konserven beträgt in der Regel mehrere Jahre, sofern sie an einem kühlen und trockenen Ort gelagert werden. Beschädigte oder aufgeblähte Dosen sollten jedoch umgehend entsorgt werden.",
+    "Zur Aktivierung der neuen Karte geben Sie bitte die auf der Rückseite aufgedruckte PIN-Nummer in das entsprechende Feld ein. Nach dreimaliger Falscheingabe wird das System aus Sicherheitsgründen automatisch gesperrt.",
+    "Die regelmäßige Fahrbahnreinigung erfolgt in diesem Bezirk jeweils am ersten Dienstag des Monats. Fahrzeughalter werden gebeten, ihre Autos in der Zeit von 8 bis 12 Uhr in den umliegenden Straßen zu parken.",
+    "Ein herkömmlicher Bleistift besteht im Wesentlichen aus einer Mine aus Graphit und Ton sowie einem Mantel aus verleimtem Holz. Zum Anspitzen wird ein scharfes Messer oder ein mechanischer Spitzer empfohlen.",
+    "Die Volkshochschule bietet im kommenden Semester einen Einführungskurs in die Grundlagen der doppelten Buchhaltung an. Der Kurs umfasst insgesamt acht Abende und findet jeweils im Raum 204 statt.",
+    "Die jährliche Überprüfung der Feuerlöscher ist gesetzlich vorgeschrieben und muss durch einen zertifizierten Sachkundigen erfolgen. Nach erfolgreicher Wartung wird eine neue Prüfplakette auf dem Gehäuse angebracht.",
+    "Um ein neues Benutzerkonto anzulegen, füllen Sie bitte alle Pflichtfelder aus und bestätigen Sie die Datenschutzbestimmungen. Im Anschluss erhalten Sie eine E-Mail mit einem Aktivierungslink.",
+    "Der durchschnittliche Wasserverbrauch eines Vier-Personen-Haushalts liegt in Deutschland bei rund 500 Litern pro Tag. Ein Großteil davon entfällt auf die tägliche Körperpflege und die Nutzung der Waschmaschine.",
+    "Das Parken auf dem gesamten Gelände ist ausschließlich Mitarbeitern mit einem gültigen Parkausweis gestattet. Widerrechtlich abgestellte Fahrzeuge werden kostenpflichtig abgeschleppt.",
+    "Die Zubereitung von grünem Tee erfordert eine Wassertemperatur von etwa 70 bis 80 Grad. Bei kochendem Wasser verbrennen die empfindlichen Blätter, was zu einem bitteren Geschmack führt.",
+    "Sein oder Nichtsein, das ist hier die Frage. Ob's edler im Gemüt, die Pfeil und Schleudern des wütenden Geschicks erdulden, oder, sich waffnend gegen eine Seele von Plagen, durch Widerstand sie enden? Sterben – schlafen – nichts weiter! Und zu wissen, dass ein Schlaf das Herzweh und die tausend Erschütterungen endet, die des Fleisches Erbgut sind. [Herkunft: William Shakespeare - Hamlet / Hamlet]",
+    "Ich habe beträchtliche Rechte, unwillig gegen die Natur zu sein, und bei meiner Ehre, ich will sie geltend machen! Warum bin ich nicht der Erste aus dem Mutterleib gekrochen? Warum nicht der Einzige? Warum musste sie mir diese Last von Hässlichkeit aufbürden? Ausrotten will ich alles um mich her, was mich einschränkt, dass ich nicht Meister bin. Herr muss ich sein! [Herkunft: Friedrich Schiller - Die Räuber / Franz Moor]",
+    "Meine Ruh ist hin, mein Herz ist schwer, ich finde sie nimmer und nimmermehr. Wo ich ihn nicht hab, ist mir das Grab, die ganze Welt ist mir vergällt. Mein armer Kopf ist mir verrückt, mein armer Sinn ist mir zerstückt. Nach ihm nur schau ich zum Fenster hinaus, nach ihm nur geh ich aus dem Haus. Mein Busen drängt sich nach ihm hin. [Herkunft: Johann Wolfgang von Goethe - Faust I / Gretchen]",
+    "Ein Mensch ist ein Abgrund, es schwindelt einem, wenn man hinabsieht. Es geht was unter der Erde... Hört ihr? Alles so still, als wäre die Welt dead. Und ich muss weiter, immer weiter, es zieht mich, es drückt mich von unten herauf. Man darf den Leuten nicht alles glauben. Was die Leute nicht alles sehen und hören! [Herkunft: Georg Büchner - Woyzeck / Woyzeck]",
+    "Kommt, ihr Geister, die ihr auf mörderische Gedanken lauscht! Entweibt mich hier! Füllt mich vom Wirbel bis zur Zeh, randvoll, mit schrecklichster Grausamkeit! Macht dick mein Blut, sperrt jeden Weg und Zugang der Reue, dass kein herbeigeklopftes Schwinden des Gewissens meinen grimmen Vorsatz erschüttere! [Herkunft: William Shakespeare - Macbeth / Lady Macbeth]",
+    "Habe nun, ach! Philosophie, Juristerei und Medizin, und leider auch Theologie durchaus studiert, mit heißem Bemühn. Da steh ich nun, ich armer Tor! Und bin so klug als wie zuvor. Heiße Magister, heiße Doktor gar, und ziehe schon an die zehen Jahr meine Schüler an der Nase herum – und sehe, dass wir nichts wissen können! [Herkunft: Johann Wolfgang von Goethe - Faust I / Faust]",
+    "Eilende Wolken! Segler der Lüfte! Wer mit euch wanderte, mit euch schiffte! Grüßet mir freundlich mein Jugendland! Ich bin gefangen, ich bin in Banden, ach, ich habe keinen andern Gesandten! Frei in den Lüften ist eure Bahn, ihr seid nicht dieser Königin untertan. [Herkunft: Friedrich Schiller - Maria Stuart / Maria Stuart]",
+    "Du denkst nicht so, Tellheim? – Ich denke nicht so? Es ist besser, ich denke gar nicht. Wenn sich der Verstand erst zu quälen anfangt, so führt er uns nur tiefer in den Irrsinn. Ich bin ein Krüppel, ein entehrter Krüppel, der ohne Vermögen, ohne Namen, ohne Zukunft dasteht. Was willst du mit mir? [Herkunft: Gotthold Ephraim Lessing - Minna von Barnhelm / Major von Tellheim]",
+    "Fläschchen, komm! – Was, wenn dies Gift gemischt von dem Mönch ist, um mich listig zu töten, damit diese Heirat ihn nicht schände, weil er mich zuvor an Romeo vermählt hat? Ich fürchte, es ist so. Und doch, mir scheint, es sollte nicht so sein, denn er ward stets als heilger Mann bewährt. Was, wenn ich in der Gruft erwache, eh mein Romeo mich erlöst? [Herkunft: William Shakespeare - Romeo und Julia / Julia]",
+    "Menschen haben Menschheit vor mir verborgen, da ich an Menschheit appellierte; weg dann von mir Sympathie und menschliche Schonung! Ich habe keinen Vater mehr, ich habe keine Liebe mehr, und Blut und Tod soll mich vergessen machen, dass mir jemals etwas teuer war! Kommt, meine Kerle! Wir sind frei, die Welt ist unser! [Herkunft: Friedrich Schiller - Die Räuber / Karl Moor]",
+    "Nun ward der Winter unseres Missvergnügens glorreicher Sommer durch die Sonne Yorks; und alle Wolken, die auf unserm Haus gebrütet, sind im tiefen Schoß des Ozeans begraben. Nun sind die Stirnen mit Siegeskränzen umgeben, die rüstigen Waffen zu Denkmälern aufgehängt. Doch ich, der ich nicht geschaffen bin zu tändeln, ich will ein Bösewicht werden! [Herkunft: William Shakespeare - Richard III / Richard III]",
+    "Nun, o Unsterblichkeit, bist du ganz mein! Du strahlst durch die Binde meiner Augen mir mit dem Glanz der tausendfachen Sonne in die Seele. Es wachsen Flügel mir an beiden Schultern, durch stille Ätherräume fliegt mein Geist. Und wie ein Schiff, vom Windhauch fortgetragen, die muntre Hafenstadt versinken sieht, so dämmert mir das ganze Leben unter. [Herkunft: Heinrich von Kleist - Prinz Friedrich von Homburg / Prinz Friedrich]",
+    "Küsst ich ihn tot? Oh, sagt mir, war es ein Kuss, oder ein Biss? Wer furchtbar liebt, der kann sich leicht vergehen. Und jeder, der den Bund der Liebe bricht, verdient den Tod. Ich wollte ihn mit meinen Lippen saugen, und ach, ich zerriss ihm die Brust! War es mein Zahn? Oh, Schande über mich! [Herkunft: Heinrich von Kleist - Penthesilea / Penthesilea]",
+    "Ich am der Geist, der stets verneint! Und das mit Recht; denn alles, was entsteht, ist wert, dass es zugrunde geht; drum besser wär's, dass nichts entstünde. So ist denn alles, was ihr Sünde, Zerstörung, kurz, das Böse nennt, mein eigentliches Element. Ein Teil von jener Kraft, die stets das Böse will und stets das Gute schafft. [Herkunft: Johann Wolfgang von Goethe - Faust I / Mephistopheles]",
+    "Ich habe den Kirschgarten gekauft! Den Kirschgarten, wo mein Großvater und mein Vater Sklaven waren, wo man sie nicht einmal in die Küche ließ! Ich habe das Gut gekauft, auf dem kein Mensch schöneres gesehen hat. Kommt alle, seht zu, wie Jermolai Lopachin die Axt an den Kirschgarten legt, wie die Bäume fallen! Wir werden Villen bauen! [Herkunft: Anton Tschechow - Der Kirschgarten / Lopachin]",
+    "Sie liebt mich nicht. Natürlich nicht! Sie will leben, lieben, helle Kleider tragen, und ich bin fünfundzwanzig Jahre alt und erinnere sie unaufhörlich daran, dass sie nicht mehr jung ist. Wenn ich nicht da bin, ist sie erst zweiunddreißig, in meiner Gegenwart aber dreiundvierzig, und dafür hasst sie mich. Und mein Talent? Sie erkennt es nicht an! [Herkunft: Anton Tschechow - Die Möwe / Konstantin Treplew]",
+    "O Sklaverei des Volksdiensts! Schmähliche Knechtschaft! Wie bin ich es müde, diesem Götzen zu schmeicheln, den meine Seele im Innersten verachtet! Wann soll ich frei auf diesem Throne stehen? Die Meinung der Welt regiert mein Leben, sie zwingt mich, zu morden, was ich hasse, und zu schonen, was mich bedroht. [Herkunft: Friedrich Schiller - Maria Stuart / Königin Elisabeth]",
+    "Er ist tot! Das Auge, das mir Liebe strahlte, ist erloschen. Die Hand, die mich so oft hielt, fault im Grabe. Und ich lebe noch? Ich atme noch in dieser giftigen Luft, die ihn erwürgt hat? Warum quält ihr mich mit eurem Trost? Es gibt keinen Trost mehr für mich, außer dem Tod! Karl, wir sehen uns wieder! [Herkunft: Friedrich Schiller - Die Räuber / Amalia]",
+    "Frei bin ich! Frei! Und hättet ihr mich auch in Ketten geschlagen, mein Geist bricht Mauern! Ihr habt mich verachtet, mich, die Fremde, die Zauberin aus Kolchis. Ihr dachtet, ich würde weinend im Staub liegen? Nein! Mein Zorn wird euer Haus verzehren. Jason wird bluten, an dem Ort, den er am meisten liebt. [Herkunft: Franz Grillparzer - Medea / Medea]",
+    "Zwei von den schönsten Sternen an dem Himmel bitten ihr Auge, darin zu funkeln, bis sie wiederkehren. Und wenn ihr Auge dort am Himmel wäre, und jene Sterne in ihrem Gesicht? Der Glanz von ihren Wangen würde sie beschämen, wie das Tageslicht die Lampe. Seht, wie sie die Wange auf die Hand lehnt! [Herkunft: William Shakespeare - Romeo und Julia / Romeo]",
+    "Allein! Weh, ganz allein. Mein Vater fort, hinabgestürzt in den finsteren Abgrund, feige geschlachtet im Bad von der eigenen Frau und ihrem Buhlen! Und ich sitze hier vor der Tür wie ein Hund, hungrig nach Rache. Agamemnon! Vater! Hörst du mich? Ich rufe dich! Lass deinen Schatten heraufsteigen! [Herkunft: Hugo von Hofmannsthal - Elektra / Elektra]",
+    "Wenn wir Schatten euch beleidigt, o so glaubt, dass euch nur träumte, als ihr hier so lang gesäumt; und dies leichte Spiel der Nacht bringe keinen Schmerz und Pracht. Sagt mir Schlemmer, falls ihr meint, dass kein Flecken uns erscheint, so verzeiht uns, und beim Glück, Puck gibt bald den Dank zurück! [Herkunft: William Shakespeare - Ein Sommernachtstraum / Puck]",
+    "Sehen Sie sich um in Seiner herrlichen Natur! Auf Freiheit ist sie gegründet – und wie reich ist sie durch Freiheit! Er, der große Schöpfer, wirft in einen Tropfen Tau den Wurm, und lässt noch in den toten Räumen der Verwesung die Willkür sich ergetzen. Doch Ihr System ist ein steriles Nichts! [Herkunft: Friedrich Schiller - Don Karlos / Marquis von Posa]",
+    "Ich will nicht verstehen! Das ist gut für euch. Ich bin hier, um euch 'Nein' zu sagen und zu sterben. Euer ganzes sauberes Glück, eure kleinen Gesetze, eure feige Ruhe – ich spucke darauf! Ihr wollt mich zwingen, meinen Bruder ungegraben verfaulen zu lassen? Ich tue es trotzdem! Hört ihr? [Herkunft: Jean Anouilh - Antigone / Antigone]",
+    "Marie! Marie! Tot! Und ich bin dein Mörder! Hier liege ich im Staub vor deiner Leiche, ich, der feige Verräter, der dein Herz zerbrach, um seiner jämmerlichen Karriere willen. Schlagt mich tot! Verflucht sei mein Ehrgeiz, verflucht die Stimmen, die mich von dir wegzogen! Es gibt keine Vergebung für mich. [Herkunft: Johann Wolfgang von Goethe - Clavigo / Clavigo]"
   ],
+
+
+
+
+  
   "themen": [
     "Das plötzliche, unerklärliche Verschwinden eines extrem wertvollen Familien-Erbstücks aus der gemeinsamen Wohnung.",
     "Die quälende Entscheidung, ob ein schwer pflegebedürftiges und unkooperatives Familienmitglied ins Heim muss.",
@@ -487,8 +843,23 @@
     "Der Streit über ein politisches oder religiöses Outing, das die gesamte bürgerliche Existenz gefährdet.",
     "Das Geständnis einer schweren, unheilbaren Krankheit wenige Wochen vor der geplanten Traumhochzeit.",
     "Der Fund einer immensen Summe Bargeld im Keller, deren Herkunft absolut nicht legal sein kann.",
-    "Die radikale Entscheidung, alles abzubrechen, die Zelte abzureißen und gemeinsam ins Ausland zu fliehen."
+    "Die radikale Entscheidung, alles abzubrechen, die Zelte abzureißen und gemeinsam ins Ausland zu fliehen.",
+    "Die Entdeckung eines gefälschten Testaments im Nachlass der Großmutter wenige Stunden vor der offiziellen Testamentseröffnung.",
+    "Die geheime Absprache über eine hochgradig illegale Organ- oder Medikamentenbeschaffung auf dem Schwarzmarkt im Ausland.",
+    "Das plötzliche, schockierende Geständnis, dass die gemeinsame familiäre Identität seit Jahrzehnten auf gefälschten Papieren beruht.",
+    "Die finale Konfrontation über die Entscheidung, ob eine hochriskante, potenziell tödliche, aber lebensverändernde Operation durchgeführt werden soll.",
+    "Der unvorhergesehene Fund einer professionellen, aktiven Abhörwanze direkt unter dem gemeinsamen Esstisch.",
+    "Die Entdeckung einer gefälschten Vaterschaftsurkunde im Nachlass der Mutter, die die gesamte Familienhistorie als Lüge entlarvt.",
+    "Die illegale Absprache über das absichtliche Verschwindenlassen von belastendem Beweismaterial vor einer bevorstehenden Hausdurchsuchung.",
+    "Die bittere Entscheidung über die sofortige Stilllegung des gemeinsamen, hochverschuldeten Familienbetriebs hinter dem Rücken der Angestellten.",
+    "Das schockierende Geständnis eines tiefen, existenziellen Vertrauensbruchs, der Jahre zurückliegt und das Fundament der Beziehung pulverisiert.",
+    "Die Konfrontation mit der Tatsache, dass einer von beiden das gemeinsame Ersparte komplett bei illegalen Online-Glücksspielen verspielt hat."
   ],
+
+
+
+
+  
 "trigger" : [
     "Der Partner hat soeben mitten in deinem Satz laut und demonstrativ aufgestöhnt und die Augen verdreht.",
     "Der Partner hat sich wortlos abgewendet und begonnen, fahrig auf seinem Smartphone herumzutippen.",
@@ -504,9 +875,22 @@
     "Der Partner hat soeben demonstrativ auf die Uhr geschaut, die Schultern hochgezogen und abfällig geschnauft.",
     "Der Partner hat dich gerade mit einem eiskalten, unbewegten Blick fixiert, der absolut nichts Menschliches mehr preisgibt.",
     "Der Partner hat sich abrupt physisch abgewandt und starrt nun mit verschränkten Armen stur aus dem Fenster.",
-    "Der Partner hat soeben begonnen, mit den Fingernägeln ein unerträglich nervöses Stakkato auf den Tisch zu trommeln."
+    "Der Partner hat soeben begonnen, mit den Fingernägeln ein unerträglich nervöses Stakkato auf den Tisch zu trommeln.",
+    "Der Partner hat soeben schockiert einen Schritt zurückgewichen und dich mit einer tiefen, erschrockenen Fremdheit angesehen.",
+    "Der Partner hat mitten im Raum demonstrativ seine wichtigsten Sachen gepackt und den Hausschlüssel auf den Tisch geknallt.",
+    "Der Partner hat soeben ein offizielles, wichtiges Dokument mit deinem Namen darauf langsam zerrissen und die Schnipsel fallengelassen.",
+    "Der Partner hat dich gerade mitten im Wort brutal unterbrochen, um die Lautstärke des Fernsehers demonstrativ auf das Maximum zu erhöhen.",
+    "Der Partner hat dir soeben ein völlig übertriebenes, falsches Lächeln aufgezwungen und dir eiskalt auf die Schulter geklopft.",
+    "Der Partner hat soeben schockiert einen Schritt zurückgewichen und dich mit einer tiefen, erschrockenen Fremdheit angesehen.",
+    "Der Partner hat mitten im Raum demonstrativ seine wichtigsten Sachen gepackt und den Hausschlüssel auf den Tisch geknallt.",
+    "Der Partner hat soeben ein offizielles, wichtiges Dokument mit deinem Namen darauf langsam zerrissen und die Schnipsel fallengelassen.",
+    "Der Partner hat gerade abrupt ein Glas Wasser mit einer derartigen, unheimlichen Langsamkeit abgestellt, dass die Stille im Raum physisch wehtut.",
+    "Der Partner hat dir soeben ein völlig übertriebenes, falsches Lächeln aufgezwungen und dir eiskalt auf die Schulter geklopft."
 ],
 
+
+
+  
 "widerstand" : [
     "Der Teflon-Modus: Egal wie emotional oder laut du wirst, der Partner lässt alles mit einem unbeteiligten, müden Lächeln abprallen. Nichts dringt zu ihm durch.",
     "Die Dauer-Opferrolle: Jede deiner Handlungen wird vom Partner sofort umgedeutet, sodass er das arme, bemitleidenswerte Opfer deiner 'völligen Grausamkeit' ist.",
@@ -522,6 +906,16 @@
     "Physische Übergriffigkeit: Der Partner sucht in den unpassendsten, toxischsten Momenten nach falscher körperlicher Nähe (eine Umarmung, Streicheln), um dich handlungsunfähig zu machen.",
     "Absolutes Gaslighting: Der Partner streitet stoisch und ruhig ab, dass die Dinge, über die ihr streitet, jemals passiert sind. Er stellt deine komplette Wahrnehmung infrage.",
     "Die weinende Wand: Der Partner bricht beim geringsten Druck deinerseits sofort in stille, hemmungslose Tränen aus, was es dir moralisch unmöglich macht, deine Aktion durchzuziehen.",
-    "Das toxische Echo: Der Partner wiederholt deine letzten Worte oft als fragendes, spöttisches Echo, was jeden deiner Gedanken sofort im Raum entwertet und dich als dumm dastehen lässt."
+    "Das toxische Echo: Der Partner wiederholt deine letzten Worte oft als fragendes, spöttisches Echo, was jeden deiner Gedanken sofort im Raum entwertet und dich als dumm dastehen lässt.",
+    "Der Ablenkungs-Angriff: Der Partner wechselt bei jedem deiner Argumente sofort zu einem komplett anderen, ungelösten Streitpunkt aus eurer tiefen Vergangenheit, um dich emotional zu verwirren.",
+    "Die unheimliche Fröhlichkeit: Egal wie ernst, traurig oder bedrohlich du agierst, der Partner bleibt in einer manisch-guten Stimmung und überspielt jede deiner Aktionen mit künstlicher Euphorie.",
+    "Die stoische Quittierung: Der Partner nimmt jede deiner emotionalen Aussagen vollkommen trocken zur Kenntnis, wiederholt sie sachlich wie ein Protokollführer, bietet dir aber keinerlei Angriffsfläche.",
+    "Die moralische Kapitulation: Der Partner gibt dir sofort und bedingungslos in allem Recht, schmeißt sich verbal in den Dreck, meint es aber nicht ernst, sondern entzieht dir dadurch jegliche Reibung.",
+    "Die professionelle Distanz: Der Partner schaltet komplett in den Modus eines distanzierten Dienstleisters oder Beamten um, der dich und deine Gefühle nach strikten, kalten Vorschriften abarbeitet.",
+    "Der Ablenkungs-Angriff: Der Partner wechselt bei jedem deiner Argumente sofort zu einem komplett anderen, ungelösten Streitpunkt aus eurer tiefen Vergangenheit, um dich emotional zu verwirren.",
+    "Die unheimliche Fröhlichkeit: Egal wie ernst, traurig oder bedrohlich du agierst, der Partner bleibt in einer manisch-guten Stimmung und überspielt jede deiner Aktionen mit künstlicher Euphorie.",
+    "Die stoische Quittierung: Der Partner nimmt jede deiner emotionalen Aussagen vollkommen trocken zur Kenntnis, wiederholt sie sachlich wie ein Protokollführer, bietet dir aber keinerlei Angriffsfläche.",
+    "Die moralische Kapitulation: Der Partner gibt dir sofort und bedingungslos in allem Recht, schmeißt sich verbal in den Dreck, meint es aber nicht ernst, sondern entzieht dir dadurch jegliche Reibung.",
+    "Die professionelle Distanz: Der Partner schaltet komplett in den Modus eines distanzierten Dienstleisters oder Beamten um, der dich und deine Gefühle nach strikten, kalten Vorschriften abarbeitet."
 ]
 }
