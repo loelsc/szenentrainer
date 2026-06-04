@@ -1,169 +1,207 @@
 import streamlit as st
 import json
 import random
+import pandas as pd
+import altair as alt
 
-# Lade die JSON-Daten
+# --- Seitenkonfiguration ---
+st.set_page_config(page_title="Szenentrainer", layout="centered", page_icon="🎭")
+
+# --- Daten laden ---
 @st.cache_data
 def load_data():
-    with open('data.json', 'r', encoding='utf-8') as f:
+    with open("data.json", "r", encoding="utf-8") as f:
         return json.load(f)
 
 data = load_data()
 
-# Helper für Historie und zufälliges Ziehen
-def get_random_with_history(options_list, history_list, max_history=5, is_dict=True):
-    if is_dict:
-        valid_options = [opt for opt in options_list if opt['base'] not in history_list]
-    else:
-        valid_options = [opt for opt in options_list if opt not in history_list]
-        
-    if not valid_options:
-        valid_options = options_list
-        
-    chosen = random.choice(valid_options)
+# --- Smart Randomizer (Shuffle Bag Algorithmus) ---
+# Garantiert, dass ein Element erst wieder auftaucht, wenn ALLE anderen gezogen wurden.
+def get_next_item(category_key):
+    pool_key = f"pool_{category_key}"
+    if pool_key not in st.session_state or len(st.session_state[pool_key]) == 0:
+        st.session_state[pool_key] = data[category_key].copy()
+        random.shuffle(st.session_state[pool_key])
+    return st.session_state[pool_key].pop()
+
+# --- Callbacks für die Buttons ---
+# Verhindern, dass UI-Elemente wie die Checkbox durch einen harten st.rerun() gelöscht werden.
+def draw_new_verb():
+    st.session_state.verb = get_next_item('verben')
+
+def draw_new_circumplex():
+    st.session_state.circumplex = (random.randint(-100, 100), random.randint(-100, 100))
+
+def draw_new_umstand():
+    st.session_state.umstand = get_next_item('umstaende')
     
-    track_val = chosen['base'] if is_dict else chosen
-    history_list.append(track_val)
-    if len(history_list) > max_history:
-        history_list.pop(0)
-        
-    return chosen
+def draw_new_beziehung():
+    st.session_state.beziehung = get_next_item('beziehungen')
+    
+def draw_new_trigger():
+    st.session_state.trigger = get_next_item('trigger')
+    
+def draw_new_widerstand():
+    st.session_state.widerstand = get_next_item('widerstand')
 
-# Initialisiere / Resette das Board
-def reset_board():
-    for key in ['verb_base', 'verb_details', 'verb_current_detail',
-                'umstand_base', 'umstand_details', 'umstand_current_detail',
-                'beziehung_base', 'beziehung_details', 'beziehung_current_detail',
-                'text_topic_content', 'trigger_content', 'widerstand_content']:
-        st.session_state[key] = None
+# --- Session State Initialisierung ---
+if 'verb' not in st.session_state:
+    st.session_state.verb = get_next_item('verben')
+if 'circumplex' not in st.session_state:
+    st.session_state.circumplex = (random.randint(-100, 100), random.randint(-100, 100))
+    
+if 'umstand' not in st.session_state:
+    st.session_state.umstand = get_next_item('umstaende')
+if 'beziehung' not in st.session_state:
+    st.session_state.beziehung = get_next_item('beziehungen')
+if 'trigger' not in st.session_state:
+    st.session_state.trigger = get_next_item('trigger')
+if 'widerstand' not in st.session_state:
+    st.session_state.widerstand = get_next_item('widerstand')
 
-if 'initialized' not in st.session_state:
-    reset_board()
-    for key in ['hist_verben', 'hist_umstaende', 'hist_beziehungen', 'hist_vehikel', 'hist_trigger', 'hist_widerstand']:
-        st.session_state[key] = []
-    st.session_state.initialized = True
+# --- Styling ---
+st.markdown("""
+    <style>
+    .big-verb {
+        font-size: 3rem !important;
+        font-weight: 900;
+        color: #ff4b4b;
+        margin-bottom: 10px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    .tooltip-icon {
+        font-size: 1.5rem;
+        color: #888;
+        cursor: help;
+        opacity: 0.6;
+        transition: opacity 0.2s;
+    }
+    .tooltip-icon:hover {
+        opacity: 1.0;
+    }
+    .highlight-tactic {
+        background-color: rgba(255, 75, 75, 0.1);
+        padding: 20px;
+        border-left: 6px solid #ff4b4b;
+        border-radius: 8px;
+        margin-top: 15px;
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
-# --- UI Aufbau ---
-st.set_page_config(layout="wide", page_title="Szenentrainer")
+
+# ==========================================
+# KOPFZEILE
+# ==========================================
 st.title("🎭 Szenentrainer")
+st.markdown("---")
 
-if st.button("🧹 Alles zurücksetzen", type="primary"):
-    reset_board()
-    st.rerun()
+# ==========================================
+# HAUPTFOKUS: DAS AKTIONS-VERB
+# ==========================================
+st.caption("DEIN AKTIONS-VERB")
 
-st.divider()
+# Das Verb mit dem neuen Tooltip-Icon rendern
+verb_base = st.session_state.verb['base']
+verb_def = st.session_state.verb.get('definition', '')
 
-# Layout Kern-Elemente
-col1, col2, col3 = st.columns(3)
+st.markdown(f"""
+    <div class='big-verb'>
+        {verb_base} 
+        <span class='tooltip-icon' title='{verb_def}'>ℹ️</span>
+    </div>
+""", unsafe_allow_html=True)
 
-def render_column(title, category_key, state_prefix):
-    st.subheader(title)
-    if st.session_state[f"{state_prefix}_base"] is None:
-        if st.button(f"🎲 Auswürfeln", key=f"btn_draw_{state_prefix}"):
-            item = get_random_with_history(data[category_key], st.session_state[f"hist_{category_key}"])
-            st.session_state[f"{state_prefix}_base"] = item['base']
-            st.session_state[f"{state_prefix}_details"] = item['details']
-            st.session_state[f"{state_prefix}_current_detail"] = None
-            st.rerun()
-    else:
-        c_text, c_btn = st.columns([8, 2])
-        with c_text:
-            st.info(st.session_state[f"{state_prefix}_base"])
-        with c_btn:
-            if st.button("🔄", key=f"btn_re_base_{state_prefix}", help=f"{title} neu auswürfeln"):
-                item = get_random_with_history(data[category_key], st.session_state[f"hist_{category_key}"])
-                st.session_state[f"{state_prefix}_base"] = item['base']
-                st.session_state[f"{state_prefix}_details"] = item['details']
-                st.session_state[f"{state_prefix}_current_detail"] = None
-                st.rerun()
-                
-        if st.session_state[f"{state_prefix}_current_detail"] is None:
-            if st.button("🎯 Präzisieren", key=f"btn_prez_{state_prefix}"):
-                st.session_state[f"{state_prefix}_current_detail"] = random.choice(st.session_state[f"{state_prefix}_details"])
-                st.rerun()
-        else:
-            c_det, c_btn_det = st.columns([8, 2])
-            with c_det:
-                st.success(st.session_state[f"{state_prefix}_current_detail"])
-            with c_btn_det:
-                if st.button("🔄", key=f"btn_re_det_{state_prefix}", help="Präzisierung neu auswürfeln"):
-                    current = st.session_state[f"{state_prefix}_current_detail"]
-                    options = [d for d in st.session_state[f"{state_prefix}_details"] if d != current]
-                    st.session_state[f"{state_prefix}_current_detail"] = random.choice(options) if options else current
-                    st.rerun()
-
-with col1:
-    render_column("Aktions-Verb", "verben", "verb")
-with col2:
-    render_column("Hindernis / Umstand", "umstaende", "umstand")
-with col3:
-    render_column("Beziehung", "beziehungen", "beziehung")
-
-st.divider()
-
-# Text oder Thema
-st.subheader("📄 Text oder Themengebiet")
-choice = st.radio("Was möchtest du als Grundlage nutzen?", ["Neutraler Text", "Themengebiet"], horizontal=True, label_visibility="collapsed")
-
-if st.session_state.text_topic_content is None:
-    if st.button("🎲 Vehikel auswählen", key="btn_text_topic"):
-        cat_key = 'texte' if choice == "Neutraler Text" else 'themen'
-        prefix = "**Dein Text:**\n\n" if choice == "Neutraler Text" else "**Dein Impro-Thema:**\n\n"
-        chosen_text = get_random_with_history(data[cat_key], st.session_state['hist_vehikel'], is_dict=False)
-        st.session_state.text_topic_content = f"{prefix}{chosen_text}"
-        st.rerun()
-else:
-    c_text, c_btn = st.columns([10, 1])
-    with c_text:
-         st.markdown(f"> {st.session_state.text_topic_content}")
-    with c_btn:
-         if st.button("🔄", key="btn_re_vehikel", help="Neu auswürfeln"):
-             cat_key = 'texte' if choice == "Neutraler Text" else 'themen'
-             prefix = "**Dein Text:**\n\n" if choice == "Neutraler Text" else "**Dein Impro-Thema:**\n\n"
-             chosen_text = get_random_with_history(data[cat_key], st.session_state['hist_vehikel'], is_dict=False)
-             st.session_state.text_topic_content = f"{prefix}{chosen_text}"
-             st.rerun()
-
-st.divider()
-
-# --- Solo-Training Modul (Meisner & Mitchell Fokus) ---
-st.subheader("👤 Modus für Solo-Training")
-st.write("Verhindert Spielen im luftleeren Raum durch klare Vorgaben zum 'Immediate Event' und zum Verhalten des imaginären Partners.")
-
-c_trig, c_wid = st.columns(2)
-
-# Trigger
-with c_trig:
-    st.markdown("**1. Der Trigger (Unmittelbarer Vorfall)**")
-    st.caption("Was passierte exakt eine Sekunde vor dem ersten Wort?")
+with st.expander("🎨 Taktische Präzisierung (Optionale Färbung)"):
+    st.markdown("Wähle **einen** konkreten Impuls, wie du diese Aktion ausführen willst:")
     
-    if st.session_state.trigger_content is None:
-        if st.button("⚡ Trigger auswürfeln", key="btn_trigger"):
-            st.session_state.trigger_content = get_random_with_history(data['trigger'], st.session_state['hist_trigger'], is_dict=False)
-            st.rerun()
-    else:
-        ct_t, ct_b = st.columns([8, 2])
-        with ct_t:
-            st.warning(st.session_state.trigger_content)
-        with ct_b:
-            if st.button("🔄", key="btn_re_trigger", help="Trigger neu auswürfeln"):
-                st.session_state.trigger_content = get_random_with_history(data['trigger'], st.session_state['hist_trigger'], is_dict=False)
-                st.rerun()
-
-# Widerstand
-with c_wid:
-    st.markdown("**2. Der Widerstand (Meisner-Komponente)**")
-    st.caption("Wie reagiert der imaginäre Partner während der Szene auf dich?")
+    # Durch index=None ist standardmäßig nichts vorausgewählt
+    radio_key = f"radio_{st.session_state.verb['base']}"
+    selected_tactic = st.radio(
+        "Impuls:", 
+        st.session_state.verb['details'], 
+        index=None,
+        label_visibility="collapsed",
+        key=radio_key
+    )
     
-    if st.session_state.widerstand_content is None:
-        if st.button("🛡️ Widerstand auswürfeln", key="btn_widerstand"):
-            st.session_state.widerstand_content = get_random_with_history(data['widerstand'], st.session_state['hist_widerstand'], is_dict=False)
-            st.rerun()
-    else:
-        cw_t, cw_b = st.columns([8, 2])
-        with cw_t:
-            st.error(st.session_state.widerstand_content)
-        with cw_b:
-            if st.button("🔄", key="btn_re_widerstand", help="Widerstand neu auswürfeln"):
-                st.session_state.widerstand_content = get_random_with_history(data['widerstand'], st.session_state['hist_widerstand'], is_dict=False)
-                st.rerun()
+    if selected_tactic:
+        st.markdown(f"<div class='highlight-tactic'>... {selected_tactic}</div>", unsafe_allow_html=True)
+
+st.write("")
+st.button("🔄 Neues Verb ziehen", on_click=draw_new_verb, use_container_width=True)
+
+st.write("")
+st.write("")
+
+# ==========================================
+# DAS CIRCUMPLEX-MODELL (ENERGETISCHE LADUNG)
+# ==========================================
+circumplex_aktiv = st.checkbox("⚡ Circumplex-Modus aktivieren (Energetischer Zustand)", key="show_circumplex")
+
+if circumplex_aktiv:
+    st.markdown("#### Deine energetische Ladung")
+    st.caption("Finde diesen Zustand organisch im Körper, bevor du mit dem Text beginnst. Wie fühlst du dich (Valenz) und wie hoch ist dein Puls (Arousal)?")
+    
+    val, arou = st.session_state.circumplex
+    
+    # Diagramm mit Altair generieren
+    df = pd.DataFrame({"Valenz": [val], "Arousal": [arou]})
+    
+    # Das Fadenkreuz (X und Y Achse bei 0)
+    xrule = alt.Chart(pd.DataFrame({'y': [0]})).mark_rule(color='gray', strokeDash=[4,4]).encode(y='y')
+    yrule = alt.Chart(pd.DataFrame({'x': [0]})).mark_rule(color='gray', strokeDash=[4,4]).encode(x='x')
+    
+    # Der Datenpunkt
+    point = alt.Chart(df).mark_circle(size=400, color='#ff4b4b', opacity=0.9).encode(
+        x=alt.X('Valenz', scale=alt.Scale(domain=[-100, 100]), title='Valenz (Tiefe Bedrohung ◀  ▶ Absolute Sicherheit)'),
+        y=alt.Y('Arousal', scale=alt.Scale(domain=[-100, 100]), title='Arousal (Erschlafft ▼  ▲ Alarmiert/Puls)'),
+        tooltip=['Valenz', 'Arousal']
+    )
+    
+    chart = (xrule + yrule + point).properties(height=350)
+    st.altair_chart(chart, use_container_width=True)
+    
+    st.button("🎲 Zustand neu auswürfeln", on_click=draw_new_circumplex)
+
+st.write("")
+st.write("")
+
+# ==========================================
+# DIE GEWÜRZ-SCHUBLADE (OPTIONALE EBENEN)
+# ==========================================
+with st.expander("🛠️ Zusätzliche Ebenen (Die Gewürz-Schublade)"):
+    st.markdown("Nutze diese Hindernisse nur, wenn das reine Verb etabliert ist und du eine zusätzliche handwerkliche Hürde brauchst.")
+    
+    # Umstand
+    st.markdown("#### 🏔️ Umstand / Physisches Hindernis")
+    st.info(st.session_state.umstand['base'])
+    st.button("Neu: Umstand", on_click=draw_new_umstand)
+        
+    st.markdown("---")
+    
+    # Beziehung
+    st.markdown("#### 👥 Beziehung")
+    st.info(st.session_state.beziehung['base'])
+    st.button("Neu: Beziehung", on_click=draw_new_beziehung)
+
+    st.markdown("---")
+    
+    # Trigger
+    st.markdown("#### ⚡ Unmittelbarer Trigger (Sekunde vor Textbeginn)")
+    st.info(st.session_state.trigger)
+    st.button("Neu: Trigger", on_click=draw_new_trigger)
+
+    st.markdown("---")
+
+    # Widerstand
+    st.markdown("#### 🛡️ Widerstand des Partners (Meisner)")
+    st.info(st.session_state.widerstand)
+    st.button("Neu: Widerstand", on_click=draw_new_widerstand)

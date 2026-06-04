@@ -1,253 +1,663 @@
 {
   "verben": [
     {
-      "base": "Du versuchst, den anderen zu einer überstürzten Beichte zu drängen, um deine eigene paranoide Ahnung endlich zu bestätigen.",
+      "base": "Bändigen",
+      "definition": "Jemandes ungestümes Temperament oder wilde Kraft bezwingen und unter Kontrolle bringen.",
       "details": [
-        "Psychologischer Druck: Erhöhe die Intensität deiner Präsenz mit jedem Satz. Lass den anderen spüren, dass das Netz sich unaufhaltsam zuzieht.",
-        "Keine Fluchtwege: Seziere die Antworten des anderen sofort nach logischen Widersprüchen und nutze sie im Subtext als psychologische Barrieren.",
-        "Die Falle des Mitgefühls: Projiziere eine falsche, milde Gesprächsbereitschaft, um den anderen dazu zu verleiten, seine Deckung vorzeitig aufzugeben.",
-        "Das Verrechnen von Pausen: Nutze jedes Zögern des anderen als Bestätigung deiner Theorie. Lass das Schweigen im Raum für dich arbeiten.",
-        "Das Schüren von Panik: Vermittle im Subtext die Gewissheit, dass die Wahrheit ohnehin bereits ans Licht gekommen ist und Leugnen alles nur noch schlimmer macht."
+        "mit unerschütterlicher, körperlicher Ruhe",
+        "indem du seine Tobsucht einfach ins Leere laufen lässt",
+        "wie ein erfahrener Dompteur im Löwenkäfig",
+        "durch das leise, monotone Wiederholen deiner Bedingungen",
+        "mit einem Blick, der absolute Kontrolle signalisiert"
       ]
     },
     {
-      "base": "Du willst den anderen subtil von dir abhängig machen, indem du seine tiefsten Selbstzweifel als unheilbar darstellst.",
+      "base": "Sezieren",
+      "definition": "Das Verhalten oder die Aussagen des anderen bis ins kleinste Detail gnadenlos analysieren und zerlegen.",
       "details": [
-        "Die Maske des Retters: Etabliere dich im Subtext als der einzige Mensch, der die vermeintlichen Unzulänglichkeiten des anderen ertragen und verstehen kann.",
-        "Destruktive Sezierung: Greife Scheinargumente des anderen auf und zerlege sie mit einer mitleidigen Sachlichkeit, die sein Fundament zum Einsturz bringt.",
-        "Das Entziehen von Bestätigung: Lasse den anderen im Unklaren darüber, ob er deine Erwartungen erfüllt. Halte emotionale Sicherheit wie eine rare Währung zurück.",
-        "Emotionale Monopolisierung: Schaffe eine psychologische Blase, in der nur noch deine Definition von Realität und richtigem Verhalten Gültigkeit besitzt.",
-        "Subtext der Hilflosigkeit: Transportiere mit jedem Wort die unterschwellige Botschaft: 'Ohne meine Führung bist du in dieser Welt komplett verloren.'"
+        "mit der kalten Neugier eines Wissenschaftlers",
+        "indem du jedes seiner Worte auf logische Fehler prüfst",
+        "völlig emotionslos und sachlich",
+        "durch das präzise Aufdecken seiner emotionalen Widersprüche",
+        "ohne Rücksicht auf seine psychischen Schmerzgrenzen"
       ]
     },
     {
-      "base": "Du attackierst den moralischen Kern des anderen, um seine unerschütterliche Selbstgerechtigkeit ein für alle Mal zu zertrümmern.",
+      "base": "Isolieren",
+      "definition": "Jemanden von allen stützenden Kontakten und äußeren Einflüssen abschneiden.",
       "details": [
-        "Ikonoklasmus: Betrachte das saubere Selbstbild des anderen als eine verlogene Maske, die du mit chirurgischer Präzision herunterreißen musst.",
-        "Die Demontage des Altars: Konfrontiere den anderen im Subtext permanent mit seinen eigenen, vergangenen Verfehlungen. Radiere seine moralische Instanz aus.",
-        "Scheinwerfer auf die Heuchelei: Behandle die edlen Motive, die der andere vorschiebt, als billige Schutzbehauptungen und entwerte sie im selben Moment.",
-        "Das Ausblutenlassen von Ausflüchten: Dulde keinerlei Relativierungen oder historische Rechtfertigungen. Halte den Fokus brutal auf dem aktuellen moralischen Versagen.",
-        "Der psychologische Tiefschlag: Suche nach dem einen wunden Punkt in seiner Biografie, von dem du weißt, dass er ihn moralisch sofort in die Knie zwingt."
+        "indem du ihm jeglichen Rückhalt aus der Umgebung entziehst",
+        "mit einer kalkulierten, strategischen Ausgrenzung",
+        "durch das systematische Kappen seiner sozialen Brücken",
+        "indem du ihn von seinen Verbündeten abschneidest",
+        "mit der unbarmherzigen Logik einer Quarantäne"
       ]
     },
     {
-      "base": "Du versuchst, eine unüberwindbare emotionale Distanz aufzubauen, um dich vor der drohenden Verletzung durch den anderen zu schützen.",
+      "base": "Ködern",
+      "definition": "Jemanden mit einem verlockenden Angebot oder Reiz gezielt in eine Falle locken.",
       "details": [
-        "Die emotionale Quarantäne: Ziehe dich gedanklich in einen unzugänglichen, inneren Schutzbunker zurück. Die Worte des anderen dürfen deine Haut nicht mehr berühren.",
-        "Das Einfrieren der Resonanz: Vergewissere dem anderen jegliches emotionale Echo. Reagiere auf seine Spitzen mit einer totalen, inneren Durchlässigkeit, die ins Leere läuft.",
-        "Sachliche Abspeisung: Kill den emotionalen Subtext der Szene, indem du die Kommunikation auf eine rein bürokratische, funktionale Ebene herunterschraubst.",
-        "Auslöschen der Geschichte: Behandle den Menschen vor dir im Geist wie einen Fremden, mit dem dich absolut keine gemeinsame Vergangenheit oder Verpflichtung verbindet.",
-        "Die präventive Kälte: Signalisiere bei jedem Annäherungsversuch im Subtext: 'Du hast jegliches Recht verwirkt, an meiner inneren Welt teilzuhaben.'"
+        "mit einem glänzenden, unwiderstehlichen Versprechen",
+        "indem du seine größte Schwachstelle als Beute nutzt",
+        "durch das häppchenweise Auslegen von Informationen",
+        "mit einer perfekt inszenierten Versuchung",
+        "indem du genau das anbietest, wonach er insgeheim hungert"
       ]
     },
     {
-      "base": "Du buhlst im Subtext verzweifelt um ein Zeichen von echter Reue des anderen, ohne deine eigene verletzte Würde vollends aufzugeben.",
+      "base": "Abstrafen",
+      "definition": "Jemanden für ein Fehlverhalten hart, unerbittlich und maßregelnd sanktionieren.",
       "details": [
-        "Der emotionale Tribut: Betrachte das Gespräch als eine Verhandlung, bei der du das nackte Eingeständnis der Schuld vom anderen als Mindesteinsatz forderst.",
-        "Das Warten auf den Bruch: Scanne die Fassade des anderen manisch nach dem kleinsten Zeichen von Scham oder Unsicherheit. Das ist dein eigentliches Ziel.",
-        "Maskierter Stolz: Verberge deine extreme innere Bedürftigkeit nach einer Entschuldigung hinter einer unnahbaren, fast schon hochmütigen Maske.",
-        "Verschärfung des Unrechts: Rufe dem anderen im Subtext permanent das Ausmaß der Verletzung vor Augen, um sein moralisches Gewissen unter unerträglichen Druck zu setzen.",
-        "Das Spiel mit dem Abbruch: Lass im Raum die unterschwellige Drohung mitschwingen, dass dies die absolut letzte Chance ist, bevor das Band zwischen euch für immer reißt."
+        "für ein begangenes, unverzeihliches Unrecht",
+        "mit einer rachsüchtigen, kalten Härte",
+        "durch den sofortigen Entzug jeglicher Privilegien",
+        "indem du ihn die volle Wucht der Konsequenzen spüren lässt",
+        "ohne jede Gnade oder Möglichkeit der Bewährung"
       ]
     },
     {
-      "base": "Du versuchst, den anderen von deiner moralischen Überlegenheit zu überzeugen.",
+      "base": "Überrollen",
+      "definition": "Jemanden mit schierer argumentativer oder physischer Wucht gnadenlos überrennen.",
       "details": [
-        "Innere Gewissheit: Verankere in dir das unerschütterliche Gefühl, dass du im Recht bist. Betrachte die Argumente des anderen nicht als Bedrohung, sondern als bedauernswerte Irrtümer.",
-        "Der Status des Opfers: Nutze den Schmerz, den der andere dir (scheinbar) zugefügt hat, als moralisches Kapital. Jedes deiner Worte speist sich aus der verletzten Gerechtigkeit.",
-        "Rhetorische Immunität: Entziehe dem anderen die Möglichkeit, dich auf emotionaler Ebene zu treffen. Deine Absicht ist es, wie eine unantastbare Instanz zu wirken.",
-        "Pädagogischer Impuls: Behandle das Gespräch nicht als Kampf, sondern als notwendige Belehrung. Der andere weiß es einfach nicht besser, und du musst ihm die Augen öffnen.",
-        "Das Fallbeil des Subtexts: Jedes sachliche Argument darunter transportiert die Botschaft: 'Ich habe mehr Format als du.' Lass diesen Subtext deine treibende Kraft sein."
+        "mit einem unaufhaltsamen, rhetorischen Sperrfeuer",
+        "indem du seine Einwände einfach lautstark ignorierst",
+        "durch die schiere Masse deiner Argumente und Energie",
+        "wie eine Naturgewalt, die keinen Widerspruch duldet",
+        "indem du das Tempo des Gesprächs diktierst und ihn atemlos machst"
       ]
     },
     {
-      "base": "Du willst den anderen emotional komplett brechen und entwaffnen.",
+      "base": "Bekehren",
+      "definition": "Jemanden mit Nachdruck dazu bringen, die eigene Überzeugung zu übernehmen.",
       "details": [
-        "Chirurgischer Fokus: Suche im Verhalten des anderen nach dem kleinsten Riss in seiner Fassade (ein Zögern, ein unsicherer Blick) und setze dort mental all deine Energie an.",
-        "Totale Entwertung: Mache dir bewusst, dass alles, was der andere sagt oder fühlt, für deine Agenda absolut bedeutungslos ist. Nimm ihm den emotionalen Nährboden.",
-        "Eisiger Schutzschild: Schütze dich vor Gegenangriffen, indem du dich innerlich komplett abkühlst. Seine Wut oder Tränen dürfen dich psychisch nicht mehr erreichen.",
-        "Das finale Urteil: Deine Sätze sind keine Diskussionsbeiträge, sondern unumstößliche Urteile. Verfahre mit der absoluten Gewissheit, dass das Urteil bereits vollstreckt ist.",
-        "Ausbluten lassen: Nutze die Pausen. Widerstehe dem Impuls, den Raum mit Worten zu füllen. Lass den emotionalen Druck des Schweigens auf den anderen wirken."
+        "mit der brennenden Leidenschaft eines Missionars",
+        "indem du dein Prinzip als die einzig wahre Rettung darstellst",
+        "durch das unermüdliche Appellieren an sein Gewissen",
+        "mit einer sanften, aber unnachgiebigen ideologischen Überzeugungskraft",
+        "indem du seine alten Überzeugungen als wertlos entlarvst"
       ]
     },
     {
-      "base": "Du versuchst, den anderen charmant einzulullen, um einen handfesten Vorteil zu erlangen.",
+      "base": "Anstacheln",
+      "definition": "Jemanden manipulativ dazu treiben, eine bestimmte, oft riskante Handlung zu begehen.",
       "details": [
-        "Die Illusion der Exklusivität: Erzeuge im Subtext das Gefühl, dass dieser Moment und dieser Mensch das Einzige sind, was für dich gerade zählt. Schaffe eine intime Blase.",
-        "Komplizenschaft aufbauen: Behandle the anderen wie einen geheimen Verbündeten gegen eine unsichtbare, feindselige Außenwelt. Wir gegen den Rest.",
-        "Falsche Schutzlosigkeit: Zeige (gespielte) Schwäche oder gib ein scheinbares Geheimnis preis, um den evolutionären Beschützerinstinkt des anderen zu triggern.",
-        "Gefühlte Schuldumkehr: Verpacke deine Forderung so, als würdest du dem anderen eine exklusive Chance bieten, dir einen Gefallen zu tun, auf den er stolz sein kann.",
-        "Die emotionale Brücke: Suche ununterbrochen nach einer emotionalen Resonanz. Reagiere auf seine Impulse wie ein Seismograph, um dich tiefer in sein Vertrauen zu graben."
+        "indem du sein Ego gezielt mit feinen Spitzen reizt",
+        "durch das manipulative Schüren seines inneren Feuers",
+        "mit einer verdeckten, passiv-aggressiven Aufforderung zum Kampf",
+        "indem du seinen Ehrgeiz oder seine Eifersucht fütterst",
+        "wie ein Brandstifter, der heimlich Benzin ins Feuer gießt"
       ]
     },
     {
-      "base": "Du attackierst den anderen frontal, um von deinen eigenen Fehlern oder Ängsten abzulenken.",
+      "base": "Fesseln",
+      "definition": "Jemandes ungeteilte Aufmerksamkeit so stark binden, dass er sich nicht entziehen kann.",
       "details": [
-        "Die Flucht nach vorn: Nutze die Aggression als absoluten Überlebensmodus. Wenn du aufhörst anzugreifen, bricht dein eigenes Kartenhaus zusammen. Der Einsatz ist existenziell.",
-        "Radikale Schuldprojektion: Überzeuge dich im tiefsten Inneren selbst davon, dass der andere an deiner Misere schuld ist. Verwandle deine Selbstzweifel in puren, projizierten Zorn.",
-        "Vernebelungstaktik: Überschütte den anderen mit Vorwürfen, um seine kognitive Kapazität zu sprengen. Er darf gar nicht erst die Zeit bekommen, logisch nachzudenken.",
-        "Die Wand aus Vorwürfen: Errichte ein verbales Sperrfeuer. Jede Verteidigung des anderen muss sofort als neuer Beweis für seine Unfähigkeit oder Boshaftigkeit umgedeutet werden.",
-        "Territoriale Dominanz: Beanspruche den psychologischen und physischen Raum für dich. Dulde keinen Millimeter Gegenwehr, da jede Schwäche dein Ende bedeuten könnte."
+        "durch eine hypnotische, magnetische Ausstrahlung",
+        "indem du ihn mit einer packenden Erzählung in deinen Bann ziehst",
+        "mit einem Blick, von dem er sich nicht losreißen kann",
+        "durch die absolute Intensität deiner verbalen Präsenz",
+        "sodass er alles um sich herum komplett vergisst"
       ]
     },
     {
-      "base": "Du versuchst, die tiefe Trauer oder Verletzlichkeit des anderen zu lindern.",
+      "base": "Bloßstellen",
+      "definition": "Jemandes Schwächen oder Geheimnisse absichtlich und demütigend öffentlich machen.",
       "details": [
-        "Der emotionale Anker: Mach dich innerlich absolut stabil. Du musst der unerschütterliche Fels sein, an den der andere sich klammern kann, ohne dass du unter seiner Last einbrichst.",
-        "Schutzraum bieten: Senke deine innere Verteidigung komplett. Signalisierte absolute, urteilsfreie Durchlässigkeit. Alles, was der andere fühlt, darf in diesem Raum sein.",
-        "Physische Resonanz: Synchronisiere dich unbewusst mit dem Zustand des anderen. Atme mit ihm, halte den emotionalen Raum, ohne ihn mit billigen Ratschlägen abzuspeisen.",
-        "Ehrfurcht vor dem Schmerz: Behandle die Verletzlichkeit des anderen wie ein hochheiliges, zerbrechliches Gut. Jedes Wort von dir muss von tiefem Respekt getragen sein.",
-        "Präsenz statt Aktion: Nimm den Druck aus der Situation. Du musst nichts 'lösen' oder 'reparieren'. Deine einzige Aufgabe ist das nackte, ehrliche Da-Sein."
+        "vor den Augen der unsichtbaren Welt",
+        "indem du seine peinlichste Schwachstelle radikal ans Licht zerrst",
+        "mit einem hämischen, unbarmherzigen Unterton",
+        "durch das brutale Einreißen seiner schützenden Fassade",
+        "ohne ihm auch nur einen Funken Würde zu belassen"
       ]
     },
     {
-      "base": "Du willst den anderen im Unklaren lassen und ihn subtil verunsichern.",
+      "base": "Anklagen",
+      "definition": "Jemandem formell, streng und unerbittlich die Schuld an einem Vergehen zuweisen.",
       "details": [
-        "Das psychologische Schachspiel: Halte deine wahren Absichten unter Verschluss. Betrachte das Gespräch als ein Manöver, bei dem der andere niemals deine nächste Figur sehen darf.",
-        "Die Macht des Vagen: Antworte so, dass der andere gezwungen ist, den Subtext selbst mit seinen schlimmsten Befürchtungen auszufüllen. Nutze seine eigene Fantasie gegen ihn.",
-        "Säen von Selbstzweifeln: Hinterfrage die Erinnerungen oder Wahrnehmungen des anderen mit einer subtilen, scheinbar besorgten Skepsis. Bringe sein Fundament zum Wanken.",
-        "Blick-Asymmetrie: Entziehe dem anderen die gewohnte emotionale Rückmeldung. Lass deine Reaktionen im Widerspruch zu dem stehen, was er eigentlich erwarten würde.",
-        "Strategische Zurückhaltung: Halte Informationen wie eine wertvolle Währung zurück. Lass den anderen darum betteln oder sich anstrengen, um überhaupt etwas von dir zu erfahren."
+        "wie ein unerbittlicher Staatsanwalt vor Gericht",
+        "indem du ihm seine Fehler chronologisch und fehlerfrei vorhältst",
+        "mit der moralischen Wucht des absoluten Rechts",
+        "durch das direkte Aufzeigen seiner Schuld",
+        "ohne jede Möglichkeit der Verteidigung oder Ausrede"
       ]
     },
     {
-      "base": "Du flehst den anderen um Vergebung, Hilfe oder eine letzte Chance an.",
+      "base": "Übertrumpfen",
+      "definition": "Die Leistung oder Behauptung eines anderen demonstrativ und herablassend in den Schatten stellen.",
       "details": [
-        "Totale Entwaffnung: Wirf jeglichen Stolz und jede innere Barriere über Bord. Zeige dich in deiner nackten, ungeschminkten Abhängigkeit von seiner Entscheidung.",
-        "Existenzielle Dringlichkeit: Verankere in dir das Gefühl, dass deine gesamte Zukunft, dein Überleben oder dein Seelenheil in genau dieser Sekunde von diesem Menschen abhängen.",
-        "Erinnerungskorridor: Appelliere im Subtext permanent an die alte, tiefe Bindung, die euch mal verbunden hat. Versuche, den verhärteten Kern des anderen aufzuschmelzen.",
-        "Bedienungslose Kapitulation: Akzeptiere vorab jede Bedingung, jede Strafe und jeden Vorwurf. Du hast keine Verteidigungslinie mehr – du bist komplett ausgeliefert.",
-        "Fragmentiertes Denken: Lass die rationale Struktur deines Sprechens brechen. Der emotionale Druck ist so hoch, dass das strategische Formulieren unmöglich wird."
+        "mit einer noch größeren, spektakuläreren Behauptung",
+        "indem du seine Leistung im selben Atemzug entwertest",
+        "aus einer Position der absoluten, arroganten Überlegenheit",
+        "durch das herablassende Demonstrieren deines höheren Status",
+        "um ihm zu zeigen, wer hier der wahre Meister ist"
       ]
     },
     {
-      "base": "Du willst den anderen gezielt provozieren, damit er die Beherrschung verliert.",
+      "base": "Abspeisen",
+      "definition": "Jemanden mit einer unzureichenden, schnellen Antwort billig und desinteressiert abfertigen.",
       "details": [
-        "Die emotionale Falle: Betrachte den Stolz des anderen als deine Zielscheibe. Dein einziges Ziel ist es, ihn so lange an seinen wunden Punkten zu kratzen, bis seine Maske fällt.",
-        "Aufreizende Distanz: Bleibe innerlich vollkommen unberührt von seinen Reaktionen. Je wütender er wird, desto kühler und amüsierter musst du auf deiner psychologischen Position verharren.",
-        "Die Kunst der Nadelstiche: Nutze Informationen, von denen du weißt, dass sie ihn triggern, und verpacke sie in eine unerträgliche, passiv-aggressive Beiläufigkeit.",
-        "Status-Demontage: Behandle den anderen im Subtext systematisch wie eine unbedeutende, lächerliche Figur. Entziehe ihm jede Form des Respekts, nach dem er dürstet.",
-        "Das Spiel mit den Grenzen: Reize die sozialen Konventionen bis zum Äußersten aus. Schramme haarscharf an der Grenze des Erlaubten vorbei, um ihn zum Erstschlag zu zwingen."
+        "mit einer billigen, vorgefertigten Floskel",
+        "durch ein kühles, bürokratisches Desinteresse",
+        "indem du sein Anliegen als völlig unbedeutend behandelst",
+        "schnell, effizient und ohne jegliche Empathie",
+        "um ihn so rasch wie möglich wieder loszuwerden"
       ]
     },
     {
-      "base": "Du maßregelst den anderen wie ein ungezogenes, verantwortungsloses Kind.",
+      "base": "Betäuben",
+      "definition": "Jemandes Wachsamkeit oder Schmerzempfinden durch psychologischen Druck oder Monotonie ausschalten.",
       "details": [
-        "Die internalisierte Autorität: Schöpfe deine Kraft aus einer übergeordneten Instanz (Gesetz, Moral, Vertrag, Alter). Du bist nicht du selbst, du bist das Prinzip der Ordnung.",
-        "Die Pflicht zur Härte: Überzeuge dich davon, dass emotionale Nachsicht dem anderen nur schaden würde. Deine Härte ist eine notwendige, fast schon schmerzhafte Pflicht.",
-        "Konsequenzen-Fokus: Betrachte das Fehlverhalten des anderen als eine unumstößliche Tatsache, die nun logisch und unbarmherzig sanktioniert werden muss. Kein Raum für Ausflüchte.",
-        "Status-Gefälle etablieren: Betrachte den anderen als unreif und unfähig, die Tragweite seines Handelns zu begreifen. Du musst für ihn das Denken und Lenken übernehmen.",
-        "Die Enttäuschung als Waffe: Setze im Subtext nicht auf Aggression, sondern auf eine tiefe, fundamentale Enttäuschung über den Mangel an Reife des anderen."
+        "mit einer monotonen, einlullenden Redeweise",
+        "durch das systematische Runterfahren der emotionalen Temperatur",
+        "indem du die Brisanz des Konflikts komplett totschweigst",
+        "wie eine psychologische Narkose",
+        "durch das Erzeugen einer bleiernen, sedierenden Atmosphäre"
       ]
     },
     {
-      "base": "Du versuchst, eine unangenehme, schmerzhafte Wahrheit vor dem anderen zu bemänteln.",
+      "base": "Paralysieren",
+      "definition": "Jemanden durch einen Schock oder Angst in einen Zustand völliger Handlungsunfähigkeit versetzen.",
       "details": [
-        "Das brennende Geheimnis: In dir tobt eine Panik vor der Entdeckung, aber du musst mit aller Kraft das Bild der absoluten Normalität aufrechterhalten. Hochspannung unter Wasser.",
-        "Die Nebelkerzen-Strategie: Lenke die Aufmerksamkeit des anderen permanent auf irrelevante Nebenschauplätze oder exzessive Details, um seinen Fokus vom wunden Punkt wegzuziehen.",
-        "Kognitive Überforderung: Versuche, im Gespräch permanent einen Schritt voraus zu sein, um mögliche investigative Fragen des anderen im Keim zu ersticken.",
-        "Die Flucht in die Formalität: Verstecke dich hinter einer geschäftsmäßigen, sachlichen oder kühlen Fassade, um die emotionale Sprengkraft der Wahrheit auszublenden.",
-        "Zwanghafte Harmonie: Versuche krampfhaft, dem anderen alles recht zu machen und Konflikte zu meiden, damit er bloß keinen Grund hat, tiefer zu graben."
+        "durch das plötzliche Konfrontieren mit einer Schock-Information",
+        "mit einem eiskalten, lähmenden Entsetzen im Subtext",
+        "indem du ihm jede logische Reaktionsmöglichkeit nimmst",
+        "wie der Blick einer Medusa, der ihn augenblicklich einfriert",
+        "durch eine unheimliche, unberechenbare Bedrohlichkeit"
       ]
     },
     {
-      "base": "Du willst den anderen einschüchtern, ohne ein einziges lautes Wort zu sagen.",
+      "base": "Belagern",
+      "definition": "Jemanden hartnäckig, ausdauernd und bedrängend mit Forderungen einkreisen.",
       "details": [
-        "Das Raubtier-Prinzip: Strahle die absolute Bereitschaft aus, im nächsten Moment konsequenzlos anzugreifen. Die Bedrohung liegt in der unberechenbaren Energie im Raum.",
-        "Psychologische Raumübernahme: Beanspruche die absolute Lufthoheit im Gespräch. Lass Gegenargumente des anderen im luftleeren Raum verhallen, indem du sie ignorierst.",
-        "Eisige Ruhe: Entziehe deinem System jegliche Hektik. Je lauter oder emotionaler der andere wird, desto unbarmherziger und starrer wird dein innerer Fokus.",
-        "Gefährliches Detailwissen: Lass im Subtext durchblicken, dass du eine Macht oder Information besitzt, die die Existenz des anderen im Handumdrehen vernichten könnte.",
-        "Der unnachgiebige Blick: Fixiere dein Ziel. Betrachte das Gegenüber nicht mehr als gleichwertigen Partner, sondern als Beute, deren Widerstand du brechen wirst."
+        "durch unaufhörliche, zermürbende Forderungen",
+        "indem du seinen psychischen Raum permanent besetzt",
+        "ohne ihm auch nur eine Sekunde der Ruhe zu gönnen",
+        "mit einer hartnäckigen, nerventötenden Ausdauer",
+        "bis seine Verteidigungsmauern vor Erschöpfung einbrechen"
       ]
     },
     {
-      "base": "Du buhlst verzweifelt um die Anerkennung, Bestätigung oder Liebe des anderen.",
+      "base": "Abwerben",
+      "definition": "Jemanden manipulativ dazu bewegen, seine Loyalitäten aufzugeben und die Seiten zu wechseln.",
       "details": [
-        "Das emotionale Vakuum: In dir klafft ein Loch, das nur dieser Mensch füllen kann. Jede Sekunde ohne sein positives Feedback fühlt sich an wie sozialer Erstickungstod.",
-        "Chamäleon-Taktik: Scanne jede Nuance im Verhalten des anderen und passe deine innere Haltung und deine Argumente sofort an, um ihm maximal zu gefallen.",
-        "Die Maske des Erfolgs: Präsentiere deine Taten oder Fähigkeiten im besten Licht, aber tue dies aus der panischen Angst heraus, andernfalls als wertlos gesehen zu werden.",
-        "Unterwürfige Loyalität: Signalisiere im Subtext absolute Gefolgschaft. 'Ich tue alles, ich bin alles, was du willst, solange du mich nur siehst und validierst.'",
-        "Überempfindlicher Sensor: Reagiere auf die kleinste kritische Nuance in seiner Stimme mit sofortigem inneren Alarm und dem verzweifelten Versuch, es wieder gutzumachen."
+        "indem du ihm die Schwachstellen seines aktuellen Lagers aufzeigst",
+        "mit einem verlockenden Angebot des Seitenwechsels",
+        "durch das subtile Säen von Illoyalität gegenüber seinen Chefs",
+        "indem du ihm im Subtext eine glänzende Zukunft bei dir versprichst",
+        "wie ein strategischer Kopfjäger im Krieg um Talente"
       ]
     },
     {
-      "base": "Du versuchst, den anderen als verlässlichsten Verbündeten für einen Plan zu gewinnen.",
+      "base": "Idolisieren",
+      "definition": "Jemanden blind, unkritisch und mit fast religiöser Inbrunst verehren.",
       "details": [
-        "Fundamentales Vertrauen: Lege all deine psychologischen Waffen ab. Begegne dem anderen mit einer radikalen, entwaffnenden Ehrlichkeit, um seine Verteidigung aufzuschmelzen.",
-        "Die gemeinsame Vision: Entzünde in dir eine brennende Begeisterung für das Ziel und versuche, diesen Funken emotional eins zu eins auf den anderen zu übertragen.",
-        "Die Schicksalsgemeinschaft: Schaffe im Subtext die Gewissheit: 'Wir sitzen im selben Boot. Wenn wir uns jetzt nicht zusammenschließen, gehen wir beide unter.'",
-        "Aufwertung des Partners: Gib dem anderen das Gefühl, dass er der einzig fähige Mensch ist, mit dem du diesen existenziellen Weg gehen kannst. Nutze seinen Stolz.",
-        "Radikale Transparenz: Präsentiere die Risiken schonungslos, um zu zeigen, dass du ihn ernst nimmst. Echtes Vertrauen entsteht durch das Teilen der Gefahr."
+        "mit der blinden, extremen Verehrung eines Jüngers",
+        "indem du jedes seiner Worte wie ein hochheiliges Gesetz behandelst",
+        "durch das völlige Auslöschen deines eigenen Stolzes",
+        "mit einer fast schon religiösen, obsessiven Ergebenheit",
+        "sodass er auf ein unerreichbares Podest gehoben wird"
       ]
     },
     {
-      "base": "Du willst den anderen testen, um herauszufinden, ob er wirklich loyal zu dir steht.",
+      "base": "Verschleiern",
+      "definition": "Wahre Absichten oder Fakten durch geschickte Täuschung und verbale Nebelkerzen unkenntlich machen.",
       "details": [
-        "Der paranoide Analytiker: Betrachte das Gespräch als ein Minenfeld, das du selbst gelegt hast. Jedes Wort des anderen wird auf die Waagschale der Treue gelegt.",
-        "Die emotionale Falle: Setze einen bewussten Köder (eine Provokation, ein scheinbares Fehlverhalten deinerseits) und beobachte eisig, ob er die Chance nutzt, dich zu verraten.",
-        "Die moralische Zwickmühle: Dränge den anderen in ein hypothetisches Szenario, in dem er sich zwischen seinem eigenen Vorteil und deiner Sicherheit entscheiden muss.",
-        "Mikroskopische Beobachtung: Blende den Inhalt seiner Worte komplett aus. Konzentriere dich ausschließlich auf den Subtext, das Zögern und die emotionale Schwingung.",
-        "Das Spiel mit dem Verrat: Lass im Raum die unterschwellige Bedrohung spürbar werden, was passiert, wenn er diesen Test jetzt nicht besteht. Das Risiko ist hoch."
+        "hinter einem dichten Vorhang aus Halbwahrheiten",
+        "durch das bewusste Erzeugen von syntaktischem Chaos",
+        "indem du die entscheidenden Fakten im Subtext vergräbst",
+        "mit einer geschickten, ablenkenden Rhetorik",
+        "sodass die Wahrheit unauffindbar bleibt"
       ]
     },
     {
-      "base": "Du blockst jeden Annäherungs- oder Erklärungsversuch des anderen radikal ab.",
+      "base": "Demütigen",
+      "definition": "Jemandes Würde durch tiefe, absichtliche Herabsetzung und Beschämung verletzen.",
       "details": [
-        "Die Festungsmauer: Ziehe eine klare, unüberwindbare Grenze um deine emotionale Welt. Alles, was der andere sagt oder fühlt, muss an dieser Wand abprallen.",
-        "Totale Verweigerung: Entziehe dem anderen jegliche Resonanzfläche. Behandle seine emotionalen Ausbrüche wie irrelevantes Rauschen, das dich nicht betrifft.",
-        "Die Flucht in die Sachlichkeit: Kill den emotionalen Subtext, indem du stur auf Fakten, Regeln oder Formalia beharrst. Deplatziere seine Gefühle im Raum.",
-        "Radikale innere Distanz: Betrachte den Menschen vor dir als Fremden, mit dem dich absolut nichts mehr verbindet. Lösche die gemeinsame Geschichte im Geist.",
-        "Die präventive Abweisung: Signalisiere bei jedem Ansatz einer Erklärung im Subtext: 'Es ist zu spät. Nichts, was du sagst, kann die Realität noch verändern.'"
+        "indem du ihn physisch oder psychisch in den Staub drückst",
+        "durch das bewusste Entziehen jeglicher menschlicher Würde",
+        "mit einer sadistischen, kalten Genugtuung",
+        "indem du seine Hilflosigkeit im Raum zelebrierst",
+        "durch ein vernichtendes Urteil über seinen gesamten Wert"
       ]
     },
     {
-      "base": "Du versuchst, das tiefe Vertrauen des anderen zu missbrauchen, um an eine lebenswichtige Information zu kommen.",
+      "base": "Warnen",
+      "definition": "Jemanden eindringlich und ernst auf eine drohende, unausweichliche Gefahr hinweisen.",
       "details": [
-        "Innere Kälte: Trenne dich emotional von der Person. Betrachte ihre Zuneigung als rein mechanischen Hebel, den du präzise ansetzen musst.",
-        "Die Illusion der Sicherheit: Schaffe durch deine Haltung eine derart geschützte Atmosphäre, dass der andere das Gefühl bekommt, bei dir absolut sicher zu sein.",
-        "Aushorchen im Subtext: Lass deine Fragen wie beiläufige Anteilnahme klingen, während du innerlich jedes Wort auf Goldwaagen legst.",
-        "Taktischer Vertrauensvorschuss: Gib im Subtext ein (erfundenes) intimes Geheimnis von dir preis, um den evolutionären Drang des anderen zur Gegenseitigkeit zu triggern.",
-        "Der psychologische Zugriff: Warte geduldig auf den Moment, in dem der andere emotional lockerlässt, um im Subtext die Schlinge zuzuziehen."
+        "vor den unbarmherzigen Konsequenzen seines nächsten Schritts",
+        "mit der düsteren Gewissheit eines Propheten",
+        "leise, eindringlich und unter vier Augen",
+        "indem du das Damoklesschwert im Subtext schwingst",
+        "als absolut letzter, freundschaftlicher Rettungsanker vor dem Abgrund"
       ]
     },
     {
-      "base": "Du willst den anderen spüren lassen, dass er für dich Luft ist, ohne den Raum zu verlassen oder das Gespräch abzubrechen.",
+      "base": "Bluffen",
+      "definition": "Durch souveränes, falsches Auftreten Stärke oder Wissen vortäuschen, das real nicht existiert.",
       "details": [
-        "Psychische Auslöschung: Entziehe dem anderen im Geiste jeglichen menschlichen Status. Er ist für dich kein Gegner mehr, sondern ein unbelebter Gegenstand im Raum.",
-        "Das visuelle Nichts: Blicke durch den anderen hindurch, als wäre er aus Glas. Fixiere Punkte knapp hinter oder neben ihm, um seine Präsenz zu leugnen.",
-        "Emotionale Eiszeit: Jede emotionale Spitze, jede Wut und jede Träne des anderen verpuffen an dir wie an einer sterilen Laborwand. Keine Resonanz.",
-        "Minimale Energie-Rückgabe: Antworte nur mit dem absolut unumgänglichen Minimum an psychischer Energie. Lass seine Sätze im leeren Raum verhungern.",
-        "Die Arroganz des Fokus: Lenke deine Aufmerksamkeit mit einer derart obsessiven Intensität auf eine Nebensächlichkeit, dass die Existenz des anderen daneben verblasst."
+        "mit der absoluten Aura des unbesiegbaren Gewinners",
+        "obwohl du innerlich auf einem völlig leeren Kartenhaus sitzt",
+        "durch ein eiskaltes, unerschütterliches Pokerface",
+        "indem du ein extremes Risiko eingehst, als hättest du nichts zu verlieren",
+        "mit einer gespielten Arroganz, die jeden Zweifel im Keim erstickt"
       ]
     },
     {
-      "base": "Du versuchst, den anderen von einer absurden Schuld freizusprechen, um eine irreversible Macht über ihn zu gewinnen.",
+      "base": "Durchleuchten",
+      "definition": "Jemandes wahre Motive und Geheimnisse mit bohrender, durchdringender Präzision erforschen.",
       "details": [
-        "Der Erlöser-Komplex: Nimm im Subtext die Position einer absoluten, fast schon spirituellen Instanz ein. Du bist der Einzige, der ihn retten kann.",
-        "Das Konstruieren der Last: Rede dem anderen seine Schuld nicht aus, sondern mache sie im Gegenteil erst richtig groß, um dich danach als einziger Ausweg anzubieten.",
-        "Die Fesseln der Milde: Verpacke deine Vergebung in eine derart erdrückende, gütige Großzügigkeit, dass der andere psychisch komplett unter deiner Schuld begraben wird.",
-        "Kognitive Dissonanz erzeugen: Verwirre den moralischen Kompass des anderen, bis er nicht mehr weiß, was richtig oder falsch ist, und blind deiner Definition vertraut.",
-        "Das unsichtbare Band: Schaffe im Subtext die unumstößliche Gewissheit: 'Ab jetzt gehört deine Integrität mir, weil ich dein Geheimnis verwalte.'"
+        "mit einem bohrenden, inquisitorischen Röntgenblick",
+        "indem du seine Fassade nach dem kleinsten Riss absuchst",
+        "durch hochpräzise, psychologische Fangfragen",
+        "ohne dich von seinen Ablenkungsmanövern beirren zu lassen",
+        "bis du seine wahren Motive glasklar vor dir siehst"
       ]
     },
     {
-      "base": "Du willst den anderen dazu bringen, die Verantwortung für eine gemeinsame Katastrophe allein zu übernehmen.",
+      "base": "Opfern",
+      "definition": "Jemanden Kaltblütig zugunsten eines höheren Ziels oder des eigenen Vorteils aufgeben.",
       "details": [
-        "Die weiße Weste: Überzeuge dich im tiefsten Inneren selbst davon, dass du das eigentliche Opfer der Situation bist. Deine Weste muss in deiner Vorstellung makellos sein.",
-        "Schuldumleitung durch Isolation: Schneide dem anderen im Subtext jeden mentalen Fluchtweg ab. Zeige ihm auf, dass er der einzige logische Sündenbock ist.",
-        "Erpresserischer Appell: Nutze seine Liebe oder Loyalität zu dir als Waffe. 'Wenn du mich liebst, fängst du diese Kugel für mich ab.'",
-        "Taktischer Rückzug: Entziehe ihm deine Solidarität in dem Moment, in dem das Gespräch brenzlig wird. Lass ihn psychisch allein im Regen stehen.",
-        "Das psychologische Fallbeil: Präsentiere die totale Opferung seinerseits als den einzig rationalen, vernünftigen Weg, um das größere Ganze zu retten."
+        "indem du ihn kaltblütig für ein höheres Ziel ans Messer lieferst",
+        "ohne mit der Wimper zu zucken oder Reue zu zeigen",
+        "mit der pragmatischen Logik eines Schachspielers",
+        "durch das bewusste Ausnutzen seiner Naivität",
+        "um deine eigene Haut im letzten Moment zu retten"
       ]
     },
     {
-      "base": "Du buhlst im Subtext um die offene Verachtung des anderen, weil dir seine Wut lieber ist als seine Gleichgültigkeit.",
+      "base": "Überbehüten",
+      "definition": "Jemanden durch exzessive, erdrückende Fürsorge in seiner eigenen Handlungsfähigkeit ersticken.",
       "details": [
-        "Die Sucht nach Reibung: Betrachte die Harmonie als den absoluten emotionalen Tod. Du brauchst den Konflikt, um dich überhaupt lebendig zu fühlen.",
-        "Provokation des Ekels: Suche nach den feinsten moralischen oder persönlichen Werten des anderen und verletze sie im Subtext mit einer kalkulierten Beiläufigkeit.",
-        "Der Märtyrer-Status: Dränge den anderen so lange in die Enge, bis er dich unfair attackiert, damit du dich im Anschluss im Gefühl des ungerechten Schmerzes sonnen kannst.",
-        "Grenzüberschreitung als Hilferuf: Treibe den Subtext so weit ins Toxische, bis der andere gezwungen ist, eine radikale emotionale Grenze zu ziehen.",
-        "Der destruktive Sog: Versuche, den anderen auf dein energetisches Niveau herunterzuziehen. Er soll genauso leiden und toben wie das Chaos in deiner Brust."
+        "mit einer erdrückenden, fast schon krankhaften Fürsorge",
+        "indem du ihm jede eigenständige Entscheidung absprichst",
+        "durch das permanente Warnen vor erfundenen Gefahren",
+        "wie eine Glucke, die ihr Küken im Käfig gefangen hält",
+        "sodass er vor lauter Schutz komplett handlungsunfähig wird"
+      ]
+    },
+    {
+      "base": "Aufwiegeln",
+      "definition": "Jemanden gezielt und rhetorisch geschickt zu Aufruhr, Wut oder Widerstand anstiften.",
+      "details": [
+        "indem du seine unterdrückte Wut gezielt anfachst",
+        "durch das manipulative Konstruieren eines gemeinsamen Feindbilds",
+        "mit aufrührerischen, emotional geladenen Parolen",
+        "indem du seinen inneren Rebellen gegen die Ordnung mobilisierst",
+        "wie ein Demagoge, der eine Revolution im Kleinen anzettelt"
+      ]
+    },
+    {
+      "base": "Boykottieren",
+      "definition": "Eine Person oder ein Vorhaben durch sture, systematische Nichtbeachtung oder Blockade sabotieren.",
+      "details": [
+        "durch eine sture, verdeckte Sabotage im Subtext",
+        "indem du seine Pläne durch passiven Widerstand blockierst",
+        "mit einer demonstrativen Verweigerung jeglicher Kooperation",
+        "heimlich, leise und hochgradig effektiv",
+        "sodass er trotz aller Anstrengung gegen eine unsichtbare Wand läuft"
+      ]
+    },
+    {
+      "base": "Auskundschaften",
+      "definition": "Heimlich, vorsichtig und methodisch Informationen über die Schwachstellen des anderen sammeln.",
+      "details": [
+        "indem du dich vorsichtig an seine Geheimnisse herantastest",
+        "durch scheinbar harmlose, beiläufige Fragen",
+        "mit der unauffälligen Wachsamkeit eines Detektivs",
+        "indem du im Subtext permanent seine emotionalen Grenzen abtastest",
+        "um Material für deinen nächsten strategischen Zug zu sammeln"
+      ]
+    },
+    {
+      "base": "Umerziehen",
+      "definition": "Jemanden systematisch und mit Druck dazu zwingen, seine Denk- und Handlungsweise zu ändern.",
+      "details": [
+        "nach deinen eigenen, unumstößlichen Vorstellungen",
+        "durch ein System aus psychologischer Belohnung und Bestrafung",
+        "indem du seine alten Gewohnheiten systematisch brichst",
+        "mit einer unnachgiebigen, ideologischen Geduld",
+        "bis er denkt und handelt, wie du es von ihm verlangst"
+      ]
+    },
+    {
+      "base": "Untergraben",
+      "definition": "Das Fundament, die Autorität oder das Selbstbewusstsein eines anderen langsam und heimlich zerstören.",
+      "details": [
+        "seiner gesamten Autorität und Glaubwürdigkeit",
+        "durch das unauffällige Säen von Zweifeln im Subtext",
+        "wie Wasser, das langsam aber stetig den Stein höhlt",
+        "durch feine, sarkastische Nadelstiche gegen sein Fundament",
+        "sodass sein Thron unbemerkt ins Wanken gerät"
+      ]
+    },
+    {
+      "base": "Verführen",
+      "definition": "Jemanden durch unwiderstehlichen Reiz dazu bringen, seine Kontrolle aufzugeben.",
+      "details": [
+        "mit einer unwiderstehlichen, sinnlichen Präsenz",
+        "indem du eine magische, exklusive Blase um euch baust",
+        "wie ein Sirenengesang, dem man sich nicht entziehen kann",
+        "indem du seine geheimsten Sehnsüchte subtil ansteuerst",
+        "mit spielerischer, leichter Eleganz"
+      ]
+    },
+    {
+      "base": "Besänftigen",
+      "definition": "Jemandes Wut oder Aufregung durch ruhiges, ausgleichendes Einwirken mildern.",
+      "details": [
+        "wie ein Heiler, der eine tiefe Wunde kühlt",
+        "indem du das Feuer seiner Wut sanft erstickst",
+        "mit einer tiefen, fast mütterlichen oder väterlichen Wärme",
+        "indem du absolute, bedingungslose Sicherheit ausstrahlst",
+        "mit ruhiger, stoischer Gelassenheit"
+      ]
+    },
+    {
+      "base": "Ermutigen",
+      "definition": "Jemandem durch Zuspruch und Bestärkung die Angst nehmen und Selbstvertrauen einflößen.",
+      "details": [
+        "indem du ihm seine eigene Größe vor Augen führst",
+        "mit leuchtender, ehrlicher Begeisterung",
+        "als sein absolut loyaler und unerschütterlicher Verbündeter",
+        "indem du ihm jegliche Angst vor dem Versagen nimmst",
+        "mit einem kraftvollen, mitreißenden Optimismus"
+      ]
+    },
+    {
+      "base": "Beschützen",
+      "definition": "Jemanden aktiv, bedingungslos und unter Einsatz der eigenen Sicherheit vor Gefahr bewahren.",
+      "details": [
+        "als wärst du ein unüberwindbarer Schild",
+        "mit einer wilden, animalischen Entschlossenheit",
+        "indem du dich bedingungslos zwischen ihn und die Gefahr stellst",
+        "mit der ruhigen Autorität eines Wächters",
+        "ohne auch nur den geringsten Gedanken an eigene Verluste"
+      ]
+    },
+    {
+      "base": "Inspirieren",
+      "definition": "Jemanden durch die eigene Vision oder Begeisterung anstecken und zu neuen Ideen beflügeln.",
+      "details": [
+        "indem du eine brillante, gemeinsame Vision entfachst",
+        "wie ein charismatischer Anführer",
+        "mit einer Energie, die den ganzen Raum elektrisiert",
+        "indem du seine gedanklichen Grenzen sprengst",
+        "mit leidenschaftlicher, brennender Überzeugung"
+      ]
+    },
+    {
+      "base": "In die Enge treiben",
+      "definition": "Jemanden systematisch so stark bedrängen, dass ihm kein Ausweg oder keine Ausrede mehr bleibt.",
+      "details": [
+        "systematisch und kaltblütig",
+        "ohne ihm einen Fluchtweg zu lassen",
+        "mit einer falschen, milden Gesprächsbereitschaft",
+        "indem du jedes Zögern gegen ihn verwendest",
+        "indem du rhetorisch alle Ausflüchte blockierst"
+      ]
+    },
+    {
+      "base": "Abhängig machen",
+      "definition": "Jemanden psychologisch so manipulieren, dass er ohne die eigene Bestätigung nicht mehr existieren kann.",
+      "details": [
+        "emotional komplett und unbarmherzig",
+        "indem du dich als sein einziger Retter inszenierst",
+        "durch den subtilen Entzug von Bestätigung",
+        "mit einer toxischen, erdrückenden Fürsorge",
+        "indem du seine tiefsten Selbstzweifel verstärkst"
+      ]
+    },
+    {
+      "base": "Zertrümmern",
+      "definition": "Das moralische oder psychische Fundament des anderen gnadenlos und irreparabel zerstören.",
+      "details": [
+        "seinen moralischen Kern",
+        "mit chirurgischer Präzision",
+        "wie ein kompromissloser Inquisitor",
+        "indem du seine Heuchelei entlarvst",
+        "durch einen gezielten Schlag auf seinen wunden Punkt"
+      ]
+    },
+    {
+      "base": "Aussperren",
+      "definition": "Jemanden emotional oder kommunikativ komplett abweisen und auf unüberwindbare Distanz halten.",
+      "details": [
+        "auf absolute, unüberwindbare Distanz",
+        "mit einer eisigen, bürokratischen Kälte",
+        "als wäre er ein völlig Fremder",
+        "indem du jegliche emotionale Resonanz verweigerst",
+        "ohne ein einziges Wort der Erklärung"
+      ]
+    },
+    {
+      "base": "Anflehen",
+      "definition": "Jemanden in existenzieller Not, verzweifelt und unter Aufgabe jeglichen Stolzes um etwas bitten.",
+      "details": [
+        "bedingungslos und ohne jeglichen Stolz",
+        "in nackter, existenzieller Panik",
+        "völlig unterwürfig",
+        "indem du dich bedingungslos auslieferst",
+        "während du verzweifelt an alte Bindungen appellierst"
+      ]
+    },
+    {
+      "base": "Maßregeln",
+      "definition": "Jemanden von oben herab, streng und autoritär für ein Fehlverhalten zurechtweisen.",
+      "details": [
+        "von oben herab",
+        "als wäre er ein unreifes Kind",
+        "mit einer tiefen, kalten Enttäuschung",
+        "absolut autoritär und unerbittlich",
+        "ohne auch nur ein Widerwort zu dulden"
+      ]
+    },
+    {
+      "base": "Demaskieren",
+      "definition": "Die verborgenen Lügen, wahren Motive oder das wahre Gesicht des anderen schonungslos aufdecken.",
+      "details": [
+        "mitleidig lächelnd",
+        "mit eisiger Ruhe",
+        "indem du seine Lügen sezierst",
+        "bis er völlig wehrlos ist",
+        "durch gezieltes Warten auf seinen Fehler"
+      ]
+    },
+    {
+      "base": "Einlullen",
+      "definition": "Jemanden durch charmantes Reden in falscher Sicherheit wiegen und unaufmerksam machen.",
+      "details": [
+        "charmant und schmeichelnd",
+        "mit gespielter Schutzlosigkeit",
+        "indem du eine intime Komplizenschaft suggerierst",
+        "wie eine Spinne im Netz",
+        "mit dem falschen Versprechen von Sicherheit"
+      ]
+    },
+    {
+      "base": "Attackieren",
+      "definition": "Den anderen plötzlich, frontal und aggressiv (verbal oder psychisch) angreifen.",
+      "details": [
+        "frontal und kompromisslos",
+        "indem du ihn mit Vorwürfen beschießt",
+        "laut, dominant und unberechenbar",
+        "um jeden Preis, als Flucht nach vorn",
+        "indem du ihm keinen Millimeter Raum lässt"
+      ]
+    },
+    {
+      "base": "Auffangen",
+      "definition": "Jemandem in einem Moment der Schwäche oder des Scheiterns bedingungslos und stützend Halt geben.",
+      "details": [
+        "bedingungslos tröstend",
+        "als unerschütterlicher Fels",
+        "mit totaler, wertfreier Akzeptanz",
+        "schweigend und extrem präsent",
+        "ohne ihn mit Ratschlägen zu bevormunden"
+      ]
+    },
+    {
+      "base": "Provozieren",
+      "definition": "Jemanden absichtlich und gezielt reizen, um ihn zu einer unkontrollierten Reaktion zu treiben.",
+      "details": [
+        "gezielt bis zur Weißglut",
+        "mit amüsierter, unangreifbarer Distanz",
+        "durch permanente kleine Nadelstiche",
+        "haarscharf an der Grenze des Erträglichen",
+        "indem du ihn systematisch lächerlich machst"
+      ]
+    },
+    {
+      "base": "Verunsichern",
+      "definition": "Jemandes Selbstvertrauen oder Wahrnehmung durch gezielte Zweifel und Unklarheiten ins Wanken bringen.",
+      "details": [
+        "in absolute Verwirrung stürzend",
+        "mit vagen, bedrohlichen Andeutungen",
+        "indem du seine Wahrnehmung leugnest (Gaslighting)",
+        "durch unberechenbares, sprunghaftes Verhalten",
+        "indem du ihm deine Reaktionen asymmetrisch entziehst"
+      ]
+    },
+    {
+      "base": "Einschüchtern",
+      "definition": "Dem anderen durch Drohung, Präsenz oder Überlegenheit Angst einflößen und ihn gefügig machen.",
+      "details": [
+        "leise und ohne ein einziges lautes Wort",
+        "wie ein Raubtier kurz vor dem Sprung",
+        "mit einem toten, unnachgiebigen Blick",
+        "durch das Durchblickenlassen gefährlichen Detailwissens",
+        "durch das absolute Dominieren des Raumes"
+      ]
+    },
+    {
+      "base": "Rekrutieren",
+      "definition": "Jemanden gezielt und manipulativ als Verbündeten für die eigene Sache gewinnen.",
+      "details": [
+        "als verlässlichen Komplizen",
+        "durch radikale, entwaffnende Ehrlichkeit",
+        "indem du eine Schicksalsgemeinschaft beschwörst",
+        "mit einer brennenden, ansteckenden Begeisterung",
+        "indem du geschickt an seinen Stolz appellierst"
+      ]
+    },
+    {
+      "base": "Testen",
+      "definition": "Jemandes Loyalität, Fähigkeiten oder Wahrheitsgehalt durch eine Prüfung herausfordern.",
+      "details": [
+        "auf absolute Loyalität",
+        "paranoid und extrem misstrauisch",
+        "mit einem fiktiven, ausgelegten Köder",
+        "indem du seine Reaktionen mikroskopisch sezierst",
+        "durch den Aufbau einer unsichtbaren Falle"
+      ]
+    },
+    {
+      "base": "Ausnutzen",
+      "definition": "Jemandes Vertrauen, Schwäche oder Ressourcen kaltblütig für den eigenen Vorteil missbrauchen.",
+      "details": [
+        "eiskalt und mechanisch",
+        "sein tiefes Vertrauen missbrauchend",
+        "unter dem perfekten Deckmantel der Sicherheit",
+        "indem du ihn heimlich aushorchst",
+        "mit der Preisgabe eines fiktiven Gegengeheimnisses"
+      ]
+    },
+    {
+      "base": "Ignorieren",
+      "definition": "Die Präsenz oder die Worte des anderen absichtlich, konsequent und oft verletzend nicht zur Kenntnis nehmen.",
+      "details": [
+        "als wäre er vollkommen unsichtbar",
+        "seine Existenz im Raum leugnend",
+        "mit eiskalter Leere",
+        "durch obsessive Ablenkung mit einer anderen Sache",
+        "indem du ihm jegliche energetische Rückmeldung verweigerst"
+      ]
+    },
+    {
+      "base": "Freisprechen",
+      "definition": "Jemanden großmütig (oft manipulativ) von einer Schuld oder Verantwortung entbinden.",
+      "details": [
+        "von einer absurden, konstruierten Schuld",
+        "mit erdrückender, toxischer Großzügigkeit",
+        "um dich als seinen alleinigen Retter zu inszenieren",
+        "indem du seinen moralischen Kompass verwirrst",
+        "um ihn endgültig an dich zu ketten"
+      ]
+    },
+    {
+      "base": "Belasten",
+      "definition": "Einem anderen die Verantwortung, Schuld oder die negativen Konsequenzen einer Tat aufbürden.",
+      "details": [
+        "mit der kompletten Verantwortung für ein Missgeschick",
+        "indem du die Indizien unauffällig in seine Richtung lenkst",
+        "mit der unantastbaren Aura deiner eigenen Unschuld",
+        "indem du ihn gezielt als Sündenbock isolierst",
+        "durch das erpresserische Ausnutzen seiner Loyalität"
+      ]
+    },
+    {
+      "base": "Täuschen",
+      "definition": "Jemanden absichtlich und strategisch in die Irre führen, um die wahre Realität zu verbergen.",
+      "details": [
+        "krampfhaft und unter Hochspannung",
+        "indem du ihm eine völlig falsche Fährte legst",
+        "hinter unzähligen Nebelkerzen und Scheinfakten",
+        "durch eine betont unbeschwerte, künstliche Normalität",
+        "während du ihn über deine wahren Absichten im Unklaren lässt"
+      ]
+    },
+    {
+      "base": "Schmeicheln",
+      "definition": "Jemandem durch übertriebenes Lob gezielt nach dem Mund reden, um ihn sich gewogen zu machen.",
+      "details": [
+        "um ihn strategisch in Sicherheit zu wiegen",
+        "mit fein abgestimmten, maßgeschneiderten Komplimenten",
+        "indem du seine Eitelkeit exzessiv fütterst",
+        "unter dem Deckmantel tiefster, unterwürfiger Bewunderung",
+        "um seine kritische Distanz vollkommen aufzulösen"
+      ]
+    },
+    {
+      "base": "Herausfordern",
+      "definition": "Den anderen offensiv zu einem Kräftemessen, einer Rechtfertigung oder einem Kampf auffordern.",
+      "details": [
+        "um seine offene Verachtung zu triggern",
+        "als destruktiver Hilferuf nach Reibung",
+        "mit einer toxischen Grenzüberschreitung",
+        "indem du dich selbst als Märtyrer inszenierst",
+        "indem du seine feinsten Werte beiläufig verletzt"
+      ]
+    },
+    {
+      "base": "Dominieren",
+      "definition": "Dem anderen den eigenen Willen aufzwingen und die unangefochtene Kontrolle über die Situation übernehmen.",
+      "details": [
+        "durch überlegene Genialität",
+        "mit gönnerhafter, mitleidiger Geduld",
+        "völlig unangreifbar und souverän",
+        "indem du ihn wie einen unwissenden Narren behandelst",
+        "mit dem ständigen Subtext absoluten Formats"
+      ]
+    },
+    {
+      "base": "Abblocken",
+      "definition": "Jeglichen Annäherungsversuch oder jedes Argument des anderen hart und undurchdringlich zurückweisen.",
+      "details": [
+        "hinter einer dicken Mauer aus Sarkasmus",
+        "mit extrem amüsierter Distanz",
+        "indem du jegliche Ernsthaftigkeit verweigerst",
+        "indem du deine Worte zynisch lächerlich machst",
+        "aus einer tiefen, gut versteckten Angst vor Nähe"
+      ]
+    },
+    {
+      "base": "Bestärken",
+      "definition": "Jemanden in seiner Haltung, seiner Handlung oder seinem Gefühl uneingeschränkt und aktiv unterstützen.",
+      "details": [
+        "mit purer Präsenz und Hingabe",
+        "völlig ohne eigenes Ego im Raum",
+        "mit stummer, tiefer Ermutigung",
+        "absolute, wertfreie Akzeptanz ausstrahlend",
+        "als wäre er der wichtigste Mensch der Welt"
       ]
     }
   ],
@@ -257,7 +667,7 @@
       "details": [
         "Akustisches Damoklesschwert: Das Wissen um die extreme Hörbarkeit jedes Atemzugs bestimmt deinen Fokus. Lautstärke ist eine physische Gefahr.",
         "Erzwungener Minimalismus: Die Notwendigkeit, absolut leise zu sein, zwingt dich zu einer enormen Komprimierung deiner körperlichen und stimmlichen Energie.",
-        "Das Pulverfass der Stille: Die Unfähigkeit, emotional durchzustarten, staut die intensität im Körper an. Die Wut oder Verzweiflung muss im Subtext implodieren.",
+        "Das Pulverfass der Stille: Die Unfähigkeit, emotional durchzustarten, staut die Intensität im Körper an. Die Wut oder Verzweiflung muss im Subtext implodieren.",
         "Körperlicher Staudamm: Jede heftige Geste, jedes Aufstampfen wird biologisch sofort im Keim erstickt. Du funktionierst unter einer permanenten Vollbremsung.",
         "Existenzielle Achtsamkeit: Deine Aufmerksamkeit ist ununterbrochen geteilt zwischen dem Partner im Raum und der lauschenden Stille hinter der Wand."
       ]
@@ -278,7 +688,7 @@
         "Die erzwungene Statik: Die totale körperliche Unbeweglichkeit erzeugt einen massiven inneren Staudamm. Die blockierte Energie fließt zu 100 % in den Blick und den Subtext.",
         "Psychologischer Staudamm: Da du nicht weichen oder physisch angreifen kannst, wird jede verbale Taktik zu einem existenziellen Instrument über Leben und Tod.",
         "Das Auge als Waffe: Dein Blick ist dein einziges territoriales Werkzeug. Fixiere das Gegenüber, um den Raum psychologisch trotzdem zu dominieren.",
-        "Ausgelieferte Geometrie: Das Gefühl der physischen Wehrlosigkeit triggert eine unterschwellige, animalische Wachsamkeit. Jeder Schritt des anderen ist eine potenzielle Bedrohung.",
+        "Ausgelierte Geometrie: Das Gefühl der physischen Wehrlosigkeit triggert eine unterschwellige, animalische Wachsamkeit. Jeder Schritt des anderen ist eine potenzielle Bedrohung.",
         "Konzentration der Kräfte: Nutze die Einschränkung, um deine psychologischen Angriffe oder Verteidigungen umso schärfer, ruhiger und fokussierter zu platzieren."
       ]
     },
@@ -287,13 +697,13 @@
       "details": [
         "Digitale Nacktheit: Das Gefühl, dass eine unsichtbare Instanz zeitgleich Einblick in deine tiefsten Geheimnisse hat, erzeugt ein extremes inneres Paranoia-Gefühl.",
         "Paranoider Filter: Jedes Wort, das du in diesem Raum sprichst, wird gedanklich sofort darauf geprüft, wie es für die unsichtbaren Beobachter da draußen klingen muss.",
-        "Die unsichtbare Bedrohung: Deine Aufmerksamkeit ist gespalten. Der eigentliche Feind sits nicht vor dir, sondern lauert als abstrakte Katastrophe im Hintergrund.",
+        "Die unsichtbare Bedrohung: Deine Aufmerksamkeit ist gespalten. Der eigentliche Feind sitzt nicht vor dir, sondern lauert als abstrakte Katastrophe im Hintergrund.",
         "Verlust des Rückzugsorts: Das Gefühl der totalen Entblößung schnürt dir die emotionale Kehle zu. Du fühlst dich psychisch komplett umstellt.",
         "Panik unter der Oberfläche: Du musst das Bild der alltäglichen Normalität wahren, während in deinem Kopf bereits das Szenario deiner kompletten Vernichtung abläuft."
       ]
     },
     {
-      "base": "Ein unerträglicher, stechender Geruch oder blendendes, flackerndes Notlicht im Raum sabotiert permanent deine Sinnen.",
+      "base": "Ein unerträglicher, stechender Geruch oder blendendes, flackerndes Notlicht im Raum sabotiert permanent deine Sinne.",
       "details": [
         "Sensorische Folter: Die feindselige Umgebung dringt als permanenter Störreiz in dein Nervensystem ein. Deine kognitive Kapazität ist drastisch reduziert.",
         "Aggression des Raumes: Die Frustration über den äußeren Störfaktor, den du nicht kontrollieren kannst, färbt unwillkürlich deine Haltung gegenüber dem Partner.",
@@ -305,7 +715,7 @@
     {
       "base": "Ein extremes, unvorhersehbares Wetterphänomen schneidet euch akut und komplett von der Außenwelt ab.",
       "details": [
-        "Naturkraft als Bedrohung: Das Bewusstsein über die Natgewalt direkt vor dem Fenster wächst mit jeder Sekunde. Die Zivilisation ist weit weg.",
+        "Naturkraft als Bedrohung: Das Bewusstsein über die Naturgewalt direkt vor dem Fenster wächst mit jeder Sekunde. Die Zivilisation ist weit weg.",
         "Klaustrophobische Enge: Der Raum wird psychisch immer kleiner. Es gibt keinen Fluchtweg, du bist gezwungen, diesen Konflikt hier und jetzt auszusitzen.",
         "Schwindende Ressourcen: Im Subtext schwingt die paranoide Frage mit: Wie lange reicht die Energie, die Wärme, die Sicherheit, wenn das hier anhält?",
         "Instabiles Umfeld: Jedes Knacken im Gebälk, jede Erschütterung des Raumes greift direkt dein Nervensystem an und splittet deine Aufmerksamkeit.",
@@ -358,7 +768,7 @@
         "Die akustische Bedrohung: Das Wissen um die hauchdünnen Wände bestimmt deinen gesamten Fokus. Jedes gesprochene Wort fühlt sich an wie das Betreten von dünnem Eis.",
         "Erzwungene Intimität: Die Notwendigkeit, leise zu sein, zwingt euch in eine physische Enge, die im extremen Widerspruch zu eurem inneren Konflikt steht.",
         "Paranoider Hyperfokus: Deine Aufmerksamkeit ist permanent geteilt zwischen dem Partner und der Umgebung (Türen, Schritte, Fenster). Du bist im Alarmzustand.",
-        "Der Druck des Kessels: Die Unfähigkeit, laut zu werden, staut die emotionale Energie im Körper an. Die Wut oder Verzweiflung muss im Subtext explodieren.",
+        "Der Druck des Kessels: Die Unfähigkeit, laut zu werden, staut die emotionale Energie im Körper an. Die Wut oder Verzweiflung muss im Subtext implodieren.",
         "Existenzielle Konsequenz: Verankere in dir die Gewissheit, dass ein einziger lauter Ton eure berufliche, soziale oder physische Existenz augenblicklich vernichtet."
       ]
     },
@@ -478,7 +888,7 @@
         "Die gespaltene Energie: 90 % deiner Konzentration fließen in deine Hände. Für das Gespräch bleibt nur ein minimaler Bruchteil, was jede Aussage extrem verdichtet.",
         "Die eiserne Disziplin: Ein emotionaler Ausbruch würde deine Präzision ruinieren. Du musst deine Gefühle wie in einem Eisblock einfrieren, um handlungsfähig zu bleiben.",
         "Der Fokus auf das Wesentliche: Du hast keine Kapazität für rhetorische Spiele. Du wirfst dem anderen nur noch messerscharfe, nackte Faktenbrocken hin.",
-        "Die Sabotage des Rhythmus: Jede emotionale Attacke des anderen gefährdet deine Arbeit. Du nimmst seine Worte als akuten, physischen Angriff auf deine Aufgabe wahr.",
+        "Die Sabotage des Rhythmus: Jede emotionaler Attacke des anderen gefährdet deine Arbeit. Du nimmst seine Worte als akuten, physischen Angriff auf deine Aufgabe wahr.",
         "Das Ventil des Subtexts: Die unterdrückte Intensität der Szene fließt unwillkürlich in die Härte oder Akribie, mit der du deine handwerkliche Aufgabe ausführst."
       ]
     },
@@ -487,9 +897,9 @@
       "details": [
         "Die Geister der Vergangenheit: Der Anblick des anderen reißt alte, schlecht verheilte Wunden mit brutaler Wucht auf. Die Gegenwart kollidiert mit der Historie.",
         "Das emotionale Minenfeld: Hinter jeder banalen Floskel lauert der alte Groll. Ihr müsst vorsichtig tasten, wie viel Sprengstoff noch in der Beziehung steckt.",
-        "Die kognitive Dissonanz: Du sucht den vertrauten Menschen von damals und blickst auf eine Person, die dir heute vollkommen fremd geworden ist. Extreme Unsicherheit.",
+        "Die kognitive Dissonanz: Du suchst den vertrauten Menschen von damals und blickst auf eine Person, die dir heute vollkommen fremd geworden ist. Extreme Unsicherheit.",
         "Der Kampf um Status: Wer hat sich in den 10 Jahren besser entwickelt? Das Gespräch wird im Subtext zu einem stummen, erbitterten Vergleich eurer Lebensentwürfe.",
-        "Die Untersuchung der Nähe: Unter der Oberfläche kämpft der Wunsch nach finaler Aussprache gegen den Impuls, die alte Mauer wieder hochzuziehen."
+        "Die Sehnsucht nach Klärung: Unter der Oberfläche kämpft der Wunsch nach finaler Aussprache gegen den Impuls, die alte Mauer wieder hochzuziehen."
       ]
     },
     {
@@ -517,7 +927,7 @@
     {
       "base": "Ihr seid ein alternder, stolzer Handwerksmeister und sein hochbegabter, aber rebellischer Lehrling, der den Betrieb heimlich aufkaufen will.",
       "details": [
-        "Der Generations-Clash: Das schmerzhafte Aufeinanderprallen von jahrzehntelanger Tradition und unbarmherziger, moderner Marktrealität.",
+        "Der Generations-Clash: Das schmerzhafte Aufeinanderprallen von jahrzehntelanger Tradition und unbarmherziger, moderne Marktrealität.",
         "Kampf um das Erbe: Der Meister verteidigt seine Lebensleistung und Definitionsmacht; der Lehrling blickt mit einer kalten Arroganz auf die vermeintlich veralteten Methoden.",
         "Die Klinge des Könnens: Trotz des tiefen Konflikts schätzt ihr die fachliche Genialität des Gegners insgeheim als extrem gefährlich ein. Erzwungener Respekt.",
         "Subtext der Entwertung: Der Meister versucht den Lehrling permanent als unreifen Jungen abzustempeln; der Lehrling deplatziert die Autorität des Meisters im Raum.",
@@ -528,7 +938,7 @@
       "base": "Ihr seid ein entfremdetes Ehepaar, das aus rein steuerlichen und gesellschaftlichen Gründen das Bild der perfekten Vorzeigeehe wahren MUSS.",
       "details": [
         "Die goldene Vitrine: Die Liebe ist seit Jahren tot, übrig geblieben ist eine hochpräzise, bürokratische Zweckgemeinschaft. Ein permanenter emotionaler Krampf.",
-        "Die Bürokratie der Intimität: Ihr bewegt euch umeinander wie zwei fremde Angestellte in einer Firma. Jede echte Nähe ist aus dem System evakuiert.",
+        "Die Bürokratie der Intimität: Ihr bewegt euch umeinander wie zwei fremde Angestellte in einer firma. Jede echte Nähe ist aus dem System evakuiert.",
         "Zynische Absprachen: Jeder Versuch einer echten, emotionalen Klärung wird sofort durch eine sarkastische, geschäftsmäßige Bemerkung im Keim erstickt.",
         "Die Kälte der Konvention: Der Stellvertreterkrieg. Ihr verpackt eure existenzielle Entfremdung in banale Diskussionen über Termine, Finanzen oder Repräsentation.",
         "Der stumme Hass: Das unerträgliche Gewicht der gemeinsamen Jahre, die wie eine bleierne Last auf jeder Silbe des Textes liegen."
@@ -570,7 +980,7 @@
         "Umkehrung der Machtverhältnisse: Der Tyrann von damals ist heute körperlich ausgeliefert. Der Pfleger besitzt die absolute Definitionsmacht über die Situation.",
         "Scham als Barriere: Der Patient kämpft verbissen darum, den Rest seiner Würde und Autorität zu wahren, während sein Körper ihn im Stich lässt.",
         "Professionelle Kälte: Der Pfleger nutzt die klinische Sachlichkeit als perfekte Waffe, um dem Patienten seine aktuelle Machtlosigkeit spürbar zu machen.",
-        "Das Echo der Angst: Der Pfleger spürt trotz allem immer noch die unterschwellige, alte Einschüchterung durch die Persönlichkeit des Tyrannen.",
+        "Das Echo der Angst: Der Pfleger spürt trotz allem immer noch die unterschwellige, alte Einschüchtern durch die Persönlichkeit des Tyrannen.",
         "Subtile Rache: Jede kleine Verzögerung, jede Spur von Ignoranz im Subtext des Pflegers ist eine späte Quittung für jahrelange Demütigungen."
       ]
     },
@@ -621,7 +1031,7 @@
         "Die totale Entblößung: Ihr kennt die verletzlichsten Stellen des anderen besser als jeder andere Mensch. Es gibt in diesem Konflikt keinerlei Schutzschilde oder Tabus.",
         "Der Kampf um Liebe: Im Subtext der Erbmasse verhandelt ihr die fundamentale, quälende Frage: 'Wer von uns wurde von den Eltern eigentlich mehr geliebt?'",
         "Die Regression der Rollen: Trotz eures Alters fallt ihr psychisch augenblicklich in die alten Verhaltensmuster des 8- und 10-Jährigen von damals zurück.",
-        "Der Verrat am Kollektiv: Der Vorwurf der Pietätlosigkeit schwebt im Raum. Jeder materielle Anspruch wird vom anderen als Verrat am Andenken der Eltern gewertet."
+        "Der Verrat am Kollektiv: Der Vorwurf der Pietätlosigkeit schwebt im Raum. Jeder materieller Anspruch wird vom anderen als Verrat am Andenken der Eltern gewertet."
       ]
     },
     {
@@ -639,7 +1049,7 @@
       "details": [
         "Die Schicksalsallianz: Ihr verachtet euch, aber euer Schicksal ist untrennbar miteinander verknotet. Scheitert das Projekt, fliegt ihr beide. Gewinnt es, gewinnt nur einer.",
         "Die Höflichkeit als Klinge: Euer Umgang ist von einer scharf geschliffenen, professionellen Etikette geprägt, die als Schutzschild vor offener Aggression dient.",
-        "Das paranoide Taxieren: Beobachtet den Partner wie einen Fechter im Duell. Jede Schwäche, jeder Fehler des anderen wird sofort registriert, um ihn später zu nutzen.",
+        "Das paranoide Taxieren: Beobachtet den Partner wie einen Fechter im Duell. Jede Schwäche, jeder Fehler des anderen wird sofort bereits registriert, um ihn später zu nutzen.",
         "Der Subtext der Sabotage: Jede Kooperation steht unter dem Generalverdacht, eine Falle zu sein. Vertrauen ist in dieser Konstellation ein tödlicher Fehler.",
         "Der erzwungene Respekt: Trotz der tiefen persönlichen Abneigung schätzt ihr die fachliche Kompetenz des Gegners insgeheim als extrem gefährlich ein."
       ]
@@ -812,7 +1222,7 @@
     "Die quälende Entscheidung, ob ein schwer pflegebedürftiges und unkooperatives Familienmitglied ins Heim muss.",
     "Ein geplatzter, illegaler Kreditvertrag, der das gemeinsame, geheime Lebensprojekt komplett zu ruinieren droht.",
     "Die unerwartete Aufdeckung einer schwerwiegenden, existenziellen Lüge über den gestrigen Abend.",
-    "Der brisante Fund eines anonymen, expliziten Liebesbriefs im mantel des Partners während des gemeinsamen Urlaubs.",
+    "Der brisante Fund eines anonymen, expliziten Liebesbriefs im Mantel des Partners während des gemeinsamen Urlaubs.",
     "Der folgenschwere Beschluss, die gemeinsame Firma nach jahrzehntelangem Erfolg aufgrund moralischer Differenzen aufzulösen.",
     "Das unvorhergesehene Auftauchen eines unehelichen Kindes aus einer längst vergessenen Affäre der Vergangenheit.",
     "Ein schwerer, vertuschter Kunstfehler im Krankenhaus, der das Leben eines gemeinsamen Freundes gekostet hat.",
