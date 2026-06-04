@@ -57,10 +57,9 @@ if 'trigger' not in st.session_state:
 if 'widerstand' not in st.session_state:
     st.session_state.widerstand = get_next_item('widerstand')
 
-# --- Responsive Styling ---
+# --- Responsive Styling & Mobile-Tooltip ---
 st.markdown("""
     <style>
-    /* 1. PC-Breite maximieren und Mobile-Ränder setzen */
     .block-container {
         max-width: 1100px !important;
         padding-top: 2rem !important;
@@ -69,9 +68,7 @@ st.markdown("""
         padding-right: 1.5rem !important;
     }
     
-    /* 2. Fluides Layout für die Schriften (clamp) */
     .big-verb {
-        /* clamp(MIN, IDEAL, MAX) - Schrift skaliert butterweich mit dem Fenster */
         font-size: clamp(1.8rem, 6vw, 3.5rem) !important; 
         font-weight: 900;
         color: #ff4b4b;
@@ -81,23 +78,95 @@ st.markdown("""
         letter-spacing: 2px;
         display: flex;
         align-items: center;
-        flex-wrap: wrap; /* Verhindert, dass das Icon auf dem Handy abgeschnitten wird */
+        flex-wrap: wrap; 
         gap: 8px;
-        word-break: break-word; /* Lange Wörter brechen auf dem Handy sauber um */
+        word-break: break-word; 
+    }
+    
+    /* --- CSS Tooltip Logik (Desktop Hover & Mobile Tap) --- */
+    .tooltip-container {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        outline: none; /* Verhindert den blauen Rahmen beim Antippen */
+        -webkit-tap-highlight-color: transparent;
     }
     
     .tooltip-icon {
         font-size: clamp(1.2rem, 3vw, 1.8rem);
         color: #888;
-        cursor: help;
         opacity: 0.6;
-        transition: opacity 0.2s;
+        transition: all 0.2s;
         margin-left: 5px;
     }
     
-    .tooltip-icon:hover {
+    .tooltip-container:hover .tooltip-icon,
+    .tooltip-container:focus .tooltip-icon {
         opacity: 1.0;
+        transform: scale(1.1);
     }
+    
+    .tooltip-text {
+        visibility: hidden;
+        background-color: #262730;
+        color: #ffffff;
+        text-align: left;
+        padding: 12px 16px;
+        border-radius: 8px;
+        border: 1px solid #444;
+        
+        /* Text-Reset für saubere Duden-Lesbarkeit */
+        font-size: 1rem;
+        font-weight: 500;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.4;
+        font-family: sans-serif;
+        
+        /* Positionierung */
+        position: absolute;
+        z-index: 9999;
+        top: 140%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: max-content;
+        max-width: 280px;
+        box-shadow: 0px 8px 16px rgba(0,0,0,0.4);
+        
+        opacity: 0;
+        transition: opacity 0.2s;
+    }
+    
+    /* Das kleine Dreieck (Pfeil) oben am Tooltip */
+    .tooltip-text::after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -8px;
+        border-width: 8px;
+        border-style: solid;
+        border-color: transparent transparent #262730 transparent;
+    }
+    
+    /* Mobile-Optimierung: Tooltip nach links verschieben, damit er nicht aus dem Display ragt */
+    @media (max-width: 600px) {
+        .tooltip-text {
+            transform: translateX(-80%);
+        }
+        .tooltip-text::after {
+            left: 80%;
+        }
+    }
+    
+    /* Tooltip anzeigen bei Hover (PC) oder Focus/Tap (Handy) */
+    .tooltip-container:hover .tooltip-text,
+    .tooltip-container:focus .tooltip-text,
+    .tooltip-container:active .tooltip-text {
+        visibility: visible;
+        opacity: 1;
+    }
+    /* --------------------------------------------------- */
     
     .highlight-tactic {
         background-color: rgba(255, 75, 75, 0.1);
@@ -110,7 +179,6 @@ st.markdown("""
         line-height: 1.4;
     }
     
-    /* Feinschliff für Streamlit-Expander auf Mobile */
     .streamlit-expanderHeader {
         font-size: clamp(1rem, 2.5vw, 1.2rem) !important;
     }
@@ -132,10 +200,14 @@ st.caption("DEIN AKTIONS-VERB")
 verb_base = st.session_state.verb['base']
 verb_def = st.session_state.verb.get('definition', '')
 
+# Hier sitzt jetzt die Mobile-taugliche Tooltip-Struktur (tabindex="0" macht es antippbar)
 st.markdown(f"""
     <div class='big-verb'>
         {verb_base} 
-        <span class='tooltip-icon' title='{verb_def}'>ℹ️</span>
+        <div class='tooltip-container' tabindex='0'>
+            <span class='tooltip-icon'>ℹ️</span>
+            <div class='tooltip-text'>{verb_def}</div>
+        </div>
     </div>
 """, unsafe_allow_html=True)
 
@@ -178,7 +250,7 @@ if circumplex_aktiv:
     
     point = alt.Chart(df).mark_circle(size=400, color='#ff4b4b', opacity=0.9).encode(
         x=alt.X('Valenz', scale=alt.Scale(domain=[-100, 100]), title='Valenz (Tiefe Bedrohung ◀  ▶ Absolute Sicherheit)'),
-        y=alt.Y('Arousal', scale=alt.Scale(domain=[-100, 100]), title='Arousal (Erschlafft ▼  ▲ Alarmiert/Puls)'),
+        y=alt.Y('Arousal', scale=alt.Scale(domain=[-100, 100]), title='Arousal (Erschlafft ◀  ▶ Alarmiert/Puls)'),
         tooltip=['Valenz', 'Arousal']
     )
     
