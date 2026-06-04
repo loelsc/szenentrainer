@@ -233,31 +233,51 @@ st.write("")
 st.write("")
 
 # ==========================================
-# DAS CIRCUMPLEX-MODELL (ENERGETISCHE LADUNG)
+# DIE CIRCUMPLEX-MODELLE (ZUSTAND & HALTUNG)
 # ==========================================
-circumplex_aktiv = st.checkbox("⚡ Circumplex-Modus aktivieren (Energetischer Zustand)", key="show_circumplex")
+circumplex_aktiv = st.checkbox("⚡ Circumplex-Modus aktivieren (Energetischer & Interpersoneller Zustand)", key="show_circumplex")
 
 if circumplex_aktiv:
-    st.markdown("#### Deine energetische Ladung")
-    st.caption("Finde diesen Zustand organisch im Körper, bevor du mit dem Text beginnst. Wie fühlst du dich (Valenz) und wie hoch ist dein Puls (Arousal)?")
+    # --- 1. Intrapersonelles Modell (Körperlicher Zustand) ---
+    st.markdown("#### 1. Deine energetische Ladung (Intrapersonell)")
+    st.caption("Dein innerer, körperlicher Motor: Wie fühlst du dich (Valenz) und wie hoch ist dein Puls (Arousal)?")
     
     val, arou = st.session_state.circumplex
-    
-    df = pd.DataFrame({"Valenz": [val], "Arousal": [arou]})
+    df_intra = pd.DataFrame({"Valenz": [val], "Arousal": [arou]})
     
     xrule = alt.Chart(pd.DataFrame({'y': [0]})).mark_rule(color='gray', strokeDash=[4,4]).encode(y='y')
     yrule = alt.Chart(pd.DataFrame({'x': [0]})).mark_rule(color='gray', strokeDash=[4,4]).encode(x='x')
     
-    point = alt.Chart(df).mark_circle(size=400, color='#ff4b4b', opacity=0.9).encode(
-        x=alt.X('Valenz', scale=alt.Scale(domain=[-100, 100]), title='Valenz (Tiefe Bedrohung ◀  ▶ Absolute Sicherheit)'),
-        y=alt.Y('Arousal', scale=alt.Scale(domain=[-100, 100]), title='Arousal (Erschlafft ◀  ▶ Alarmiert/Puls)'),
+    point_intra = alt.Chart(df_intra).mark_circle(size=400, color='#ff4b4b', opacity=0.9).encode(
+        x=alt.X('Valenz', scale=alt.Scale(domain=[-100, 100]), title='Valenz (Negatives Gefühl ◀  ▶ Positives Gefühl)'),
+        y=alt.Y('Arousal', scale=alt.Scale(domain=[-100, 100]), title='Erregung (Niedrige Energie ◀  ▶ Hohe Energie)'),
         tooltip=['Valenz', 'Arousal']
     )
     
-    chart = (xrule + yrule + point).properties(height=350)
-    st.altair_chart(chart, use_container_width=True)
+    chart_intra = (xrule + yrule + point_intra).properties(height=350)
+    st.altair_chart(chart_intra, use_container_width=True)
     
-    st.button("🎲 Zustand neu auswürfeln", on_click=draw_new_circumplex)
+    st.button("🎲 Energetische Ladung neu auswürfeln", on_click=draw_new_circumplex)
+
+    st.markdown("---")
+    
+    # --- 2. Interpersonelles Modell (Beziehung zum Partner) ---
+    st.markdown("#### 2. Deine interpersonelle Haltung (Nach Leary)")
+    st.caption("Dein Beziehungsangebot: Welchen Status nimmst du ein und welche emotionale Distanz forderst du?")
+    
+    val_inter, arou_inter = st.session_state.inter_circumplex
+    df_inter = pd.DataFrame({"Bindung": [val_inter], "Status": [arou_inter]})
+    
+    point_inter = alt.Chart(df_inter).mark_circle(size=400, color='#4b8bff', opacity=0.9).encode(
+        x=alt.X('Bindung', scale=alt.Scale(domain=[-100, 100]), title='Verbundenheit (Feindselig/Kalt ◀  ▶ Freundlich/Zugewandt)'),
+        y=alt.Y('Status', scale=alt.Scale(domain=[-100, 100]), title='Dominanz (Unterwürfig/Passiv ◀  ▶ Dominant/Führend)'),
+        tooltip=['Bindung', 'Status']
+    )
+    
+    chart_inter = (xrule + yrule + point_inter).properties(height=350)
+    st.altair_chart(chart_inter, use_container_width=True)
+    
+    st.button("🎲 Interpersonelle Haltung neu auswürfeln", on_click=draw_new_inter_circumplex)
 
 st.write("")
 st.write("")
