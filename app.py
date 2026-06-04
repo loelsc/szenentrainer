@@ -16,7 +16,6 @@ def load_data():
 data = load_data()
 
 # --- Smart Randomizer (Shuffle Bag Algorithmus) ---
-# Garantiert, dass ein Element erst wieder auftaucht, wenn ALLE anderen gezogen wurden.
 def get_next_item(category_key):
     pool_key = f"pool_{category_key}"
     if pool_key not in st.session_state or len(st.session_state[pool_key]) == 0:
@@ -25,7 +24,6 @@ def get_next_item(category_key):
     return st.session_state[pool_key].pop()
 
 # --- Callbacks für die Buttons ---
-# Verhindern, dass UI-Elemente wie die Checkbox durch einen harten st.rerun() gelöscht werden.
 def draw_new_verb():
     st.session_state.verb = get_next_item('verben')
 
@@ -59,39 +57,62 @@ if 'trigger' not in st.session_state:
 if 'widerstand' not in st.session_state:
     st.session_state.widerstand = get_next_item('widerstand')
 
-# --- Styling ---
+# --- Responsive Styling ---
 st.markdown("""
     <style>
+    /* 1. PC-Breite maximieren und Mobile-Ränder setzen */
+    .block-container {
+        max-width: 1100px !important;
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+    
+    /* 2. Fluides Layout für die Schriften (clamp) */
     .big-verb {
-        font-size: 3rem !important;
+        /* clamp(MIN, IDEAL, MAX) - Schrift skaliert butterweich mit dem Fenster */
+        font-size: clamp(1.8rem, 6vw, 3.5rem) !important; 
         font-weight: 900;
         color: #ff4b4b;
         margin-bottom: 10px;
-        line-height: 1.2;
+        line-height: 1.1;
         text-transform: uppercase;
         letter-spacing: 2px;
         display: flex;
         align-items: center;
-        gap: 12px;
+        flex-wrap: wrap; /* Verhindert, dass das Icon auf dem Handy abgeschnitten wird */
+        gap: 8px;
+        word-break: break-word; /* Lange Wörter brechen auf dem Handy sauber um */
     }
+    
     .tooltip-icon {
-        font-size: 1.5rem;
+        font-size: clamp(1.2rem, 3vw, 1.8rem);
         color: #888;
         cursor: help;
         opacity: 0.6;
         transition: opacity 0.2s;
+        margin-left: 5px;
     }
+    
     .tooltip-icon:hover {
         opacity: 1.0;
     }
+    
     .highlight-tactic {
         background-color: rgba(255, 75, 75, 0.1);
-        padding: 20px;
+        padding: clamp(12px, 3vw, 20px);
         border-left: 6px solid #ff4b4b;
         border-radius: 8px;
         margin-top: 15px;
-        font-size: 1.4rem;
+        font-size: clamp(1.1rem, 3vw, 1.4rem);
         font-weight: 600;
+        line-height: 1.4;
+    }
+    
+    /* Feinschliff für Streamlit-Expander auf Mobile */
+    .streamlit-expanderHeader {
+        font-size: clamp(1rem, 2.5vw, 1.2rem) !important;
     }
     </style>
 """, unsafe_allow_html=True)
@@ -108,7 +129,6 @@ st.markdown("---")
 # ==========================================
 st.caption("DEIN AKTIONS-VERB")
 
-# Das Verb mit dem neuen Tooltip-Icon rendern
 verb_base = st.session_state.verb['base']
 verb_def = st.session_state.verb.get('definition', '')
 
@@ -122,7 +142,6 @@ st.markdown(f"""
 with st.expander("🎨 Taktische Präzisierung (Optionale Färbung)"):
     st.markdown("Wähle **einen** konkreten Impuls, wie du diese Aktion ausführen willst:")
     
-    # Durch index=None ist standardmäßig nichts vorausgewählt
     radio_key = f"radio_{st.session_state.verb['base']}"
     selected_tactic = st.radio(
         "Impuls:", 
@@ -152,14 +171,11 @@ if circumplex_aktiv:
     
     val, arou = st.session_state.circumplex
     
-    # Diagramm mit Altair generieren
     df = pd.DataFrame({"Valenz": [val], "Arousal": [arou]})
     
-    # Das Fadenkreuz (X und Y Achse bei 0)
     xrule = alt.Chart(pd.DataFrame({'y': [0]})).mark_rule(color='gray', strokeDash=[4,4]).encode(y='y')
     yrule = alt.Chart(pd.DataFrame({'x': [0]})).mark_rule(color='gray', strokeDash=[4,4]).encode(x='x')
     
-    # Der Datenpunkt
     point = alt.Chart(df).mark_circle(size=400, color='#ff4b4b', opacity=0.9).encode(
         x=alt.X('Valenz', scale=alt.Scale(domain=[-100, 100]), title='Valenz (Tiefe Bedrohung ◀  ▶ Absolute Sicherheit)'),
         y=alt.Y('Arousal', scale=alt.Scale(domain=[-100, 100]), title='Arousal (Erschlafft ▼  ▲ Alarmiert/Puls)'),
