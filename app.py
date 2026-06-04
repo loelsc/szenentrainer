@@ -30,6 +30,10 @@ def draw_new_verb():
 def draw_new_circumplex():
     st.session_state.circumplex = (random.randint(-100, 100), random.randint(-100, 100))
 
+# WICHTIG: Diese Funktion hat gefehlt!
+def draw_new_inter_circumplex():
+    st.session_state.inter_circumplex = (random.randint(-100, 100), random.randint(-100, 100))
+
 def draw_new_umstand():
     st.session_state.umstand = get_next_item('umstaende')
     
@@ -47,6 +51,10 @@ if 'verb' not in st.session_state:
     st.session_state.verb = get_next_item('verben')
 if 'circumplex' not in st.session_state:
     st.session_state.circumplex = (random.randint(-100, 100), random.randint(-100, 100))
+
+# WICHTIG: Diese Initialisierung hat gefehlt!
+if 'inter_circumplex' not in st.session_state:
+    st.session_state.inter_circumplex = (random.randint(-100, 100), random.randint(-100, 100))
     
 if 'umstand' not in st.session_state:
     st.session_state.umstand = get_next_item('umstaende')
@@ -250,7 +258,7 @@ if circumplex_aktiv:
     
     point_intra = alt.Chart(df_intra).mark_circle(size=400, color='#ff4b4b', opacity=0.9).encode(
         x=alt.X('Valenz', scale=alt.Scale(domain=[-100, 100]), title='Valenz (Negatives Gefühl ◀  ▶ Positives Gefühl)'),
-        y=alt.Y('Arousal', scale=alt.Scale(domain=[-100, 100]), title='Erregung (Niedrige Energie ◀  ▶ Hohe Energie)'),
+        y=alt.Y('Arousal', scale=alt.Scale(domain=[-100, 100]), title='Erregung (Niedrige Energie ▼  ▲ Hohe Energie)'),
         tooltip=['Valenz', 'Arousal']
     )
     
@@ -270,7 +278,7 @@ if circumplex_aktiv:
     
     point_inter = alt.Chart(df_inter).mark_circle(size=400, color='#4b8bff', opacity=0.9).encode(
         x=alt.X('Bindung', scale=alt.Scale(domain=[-100, 100]), title='Verbundenheit (Feindselig/Kalt ◀  ▶ Freundlich/Zugewandt)'),
-        y=alt.Y('Status', scale=alt.Scale(domain=[-100, 100]), title='Dominanz (Unterwürfig/Passiv ◀  ▶ Dominant/Führend)'),
+        y=alt.Y('Status', scale=alt.Scale(domain=[-100, 100]), title='Dominanz (Unterwürfig/Passiv ▼  ▲ Dominant/Führend)'),
         tooltip=['Bindung', 'Status']
     )
     
