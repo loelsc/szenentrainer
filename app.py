@@ -52,7 +52,6 @@ if 'verb' not in st.session_state:
 if 'circumplex' not in st.session_state:
     st.session_state.circumplex = (random.randint(-100, 100), random.randint(-100, 100))
 
-# WICHTIG: Diese Initialisierung hat gefehlt!
 if 'inter_circumplex' not in st.session_state:
     st.session_state.inter_circumplex = (random.randint(-100, 100), random.randint(-100, 100))
     
@@ -208,7 +207,6 @@ st.caption("DEIN AKTIONS-VERB")
 verb_base = st.session_state.verb['base']
 verb_def = st.session_state.verb.get('definition', '')
 
-# Hier sitzt jetzt die Mobile-taugliche Tooltip-Struktur (tabindex="0" macht es antippbar)
 st.markdown(f"""
     <div class='big-verb'>
         {verb_base} 
@@ -291,9 +289,9 @@ st.write("")
 st.write("")
 
 # ==========================================
-# DIE GEWÜRZ-SCHUBLADE (OPTIONALE EBENEN)
+# OPTIONALE VORGABEN
 # ==========================================
-with st.expander("🛠️ Zusätzliche Ebenen (Die Gewürz-Schublade)"):
+with st.expander("🛠️ Zusätzliche Ebenen"):
     st.markdown("Nutze diese Hindernisse nur, wenn das reine Verb etabliert ist und du eine zusätzliche handwerkliche Hürde brauchst.")
     
     # Umstand
@@ -318,6 +316,6 @@ with st.expander("🛠️ Zusätzliche Ebenen (Die Gewürz-Schublade)"):
     st.markdown("---")
 
     # Widerstand
-    st.markdown("#### 🛡️ Widerstand des Partners (Meisner)")
+    st.markdown("#### 🛡️ Widerstand des Partners")
     st.info(st.session_state.widerstand)
     st.button("Neu: Widerstand", on_click=draw_new_widerstand)
