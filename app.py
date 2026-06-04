@@ -258,7 +258,7 @@ if circumplex_aktiv:
     
     point_intra = alt.Chart(df_intra).mark_circle(size=400, color='#ff4b4b', opacity=0.9).encode(
         x=alt.X('Valenz', scale=alt.Scale(domain=[-100, 100]), title='Valenz (Negatives Gefühl ◀  ▶ Positives Gefühl)'),
-        y=alt.Y('Arousal', scale=alt.Scale(domain=[-100, 100]), title='Erregung (Niedrige Energie ▼  ▲ Hohe Energie)'),
+        y=alt.Y('Arousal', scale=alt.Scale(domain=[-100, 100]), title='Erregung (Niedrige Energie ◀  ▶ Hohe Energie)'),
         tooltip=['Valenz', 'Arousal']
     )
     
@@ -278,7 +278,7 @@ if circumplex_aktiv:
     
     point_inter = alt.Chart(df_inter).mark_circle(size=400, color='#4b8bff', opacity=0.9).encode(
         x=alt.X('Bindung', scale=alt.Scale(domain=[-100, 100]), title='Verbundenheit (Feindselig/Kalt ◀  ▶ Freundlich/Zugewandt)'),
-        y=alt.Y('Status', scale=alt.Scale(domain=[-100, 100]), title='Dominanz (Unterwürfig/Passiv ▼  ▲ Dominant/Führend)'),
+        y=alt.Y('Status', scale=alt.Scale(domain=[-100, 100]), title='Dominanz (Unterwürfig/Passiv ◀  ▶ Dominant/Führend)'),
         tooltip=['Bindung', 'Status']
     )
     
