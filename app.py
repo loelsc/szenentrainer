@@ -30,7 +30,6 @@ def draw_new_verb():
 def draw_new_circumplex():
     st.session_state.circumplex = (random.randint(-100, 100), random.randint(-100, 100))
 
-# WICHTIG: Diese Funktion hat gefehlt!
 def draw_new_inter_circumplex():
     st.session_state.inter_circumplex = (random.randint(-100, 100), random.randint(-100, 100))
 
@@ -51,7 +50,6 @@ if 'verb' not in st.session_state:
     st.session_state.verb = get_next_item('verben')
 if 'circumplex' not in st.session_state:
     st.session_state.circumplex = (random.randint(-100, 100), random.randint(-100, 100))
-
 if 'inter_circumplex' not in st.session_state:
     st.session_state.inter_circumplex = (random.randint(-100, 100), random.randint(-100, 100))
     
@@ -76,6 +74,7 @@ st.markdown("""
     }
     
     .big-verb {
+        position: relative; /* NEU: Der gesamte Textblock ist jetzt der Anker für den Tooltip */
         font-size: clamp(1.8rem, 6vw, 3.5rem) !important; 
         font-weight: 900;
         color: #ff4b4b;
@@ -90,12 +89,11 @@ st.markdown("""
         word-break: break-word; 
     }
     
-    /* --- CSS Tooltip Logik (Desktop Hover & Mobile Tap) --- */
+    /* --- CSS Tooltip Logik (Entkoppeltes Dropdown-System) --- */
     .tooltip-container {
-        position: relative;
         display: inline-block;
         cursor: pointer;
-        outline: none; /* Verhindert den blauen Rahmen beim Antippen */
+        outline: none; 
         -webkit-tap-highlight-color: transparent;
     }
     
@@ -118,11 +116,11 @@ st.markdown("""
         background-color: #262730;
         color: #ffffff;
         text-align: left;
-        padding: 12px 16px;
+        padding: 14px 18px;
         border-radius: 8px;
         border: 1px solid #444;
+        border-left: 4px solid #ff4b4b; /* Roter Akzent passend zum Verb */
         
-        /* Text-Reset für saubere Duden-Lesbarkeit */
         font-size: 1rem;
         font-weight: 500;
         text-transform: none;
@@ -130,43 +128,21 @@ st.markdown("""
         line-height: 1.4;
         font-family: sans-serif;
         
-        /* Positionierung */
+        /* Dropdown-Positionierung: Immer linksbündig unter dem ganzen Verb */
         position: absolute;
         z-index: 9999;
-        top: 140%;
-        left: 50%;
-        transform: translateX(-50%);
+        top: 100%;
+        left: 0;
+        margin-top: 8px;
         width: max-content;
-        max-width: 280px;
-        box-shadow: 0px 8px 16px rgba(0,0,0,0.4);
+        max-width: 100%; /* Verhindert das Ausbrechen aus dem Bildschirm */
+        box-shadow: 0px 8px 20px rgba(0,0,0,0.5);
         
         opacity: 0;
         transition: opacity 0.2s;
     }
     
-    /* Das kleine Dreieck (Pfeil) oben am Tooltip */
-    .tooltip-text::after {
-        content: "";
-        position: absolute;
-        bottom: 100%;
-        left: 50%;
-        margin-left: -8px;
-        border-width: 8px;
-        border-style: solid;
-        border-color: transparent transparent #262730 transparent;
-    }
-    
-    /* Mobile-Optimierung: Tooltip nach links verschieben, damit er nicht aus dem Display ragt */
-    @media (max-width: 600px) {
-        .tooltip-text {
-            transform: translateX(-80%);
-        }
-        .tooltip-text::after {
-            left: 80%;
-        }
-    }
-    
-    /* Tooltip anzeigen bei Hover (PC) oder Focus/Tap (Handy) */
+    /* Anzeigen bei Hover/Tap */
     .tooltip-container:hover .tooltip-text,
     .tooltip-container:focus .tooltip-text,
     .tooltip-container:active .tooltip-text {
@@ -289,7 +265,7 @@ st.write("")
 st.write("")
 
 # ==========================================
-# OPTIONALE VORGABEN
+# DIE GEWÜRZ-SCHUBLADE (OPTIONALE EBENEN)
 # ==========================================
 with st.expander("🛠️ Zusätzliche Ebenen"):
     st.markdown("Nutze diese Hindernisse nur, wenn das reine Verb etabliert ist und du eine zusätzliche handwerkliche Hürde brauchst.")
