@@ -251,8 +251,8 @@ if circumplex_aktiv:
     df_inter = pd.DataFrame({"Bindung": [val_inter], "Status": [arou_inter]})
     
     point_inter = alt.Chart(df_inter).mark_circle(size=400, color='#4b8bff', opacity=0.9).encode(
-        x=alt.X('Bindung', scale=alt.Scale(domain=[-100, 100]), title='Verbundenheit (Feindselig/Kalt ◀  ▶ Freundlich/Zugewandt)'),
-        y=alt.Y('Status', scale=alt.Scale(domain=[-100, 100]), title='Dominanz (Unterwürfig/Passiv ◀  ▶ Dominant/Führend)'),
+        x=alt.X('Bindung', scale=alt.Scale(domain=[-100, 100]), title='Verbundenheit (negativ ◀  ▶ positiv)'),
+        y=alt.Y('Status', scale=alt.Scale(domain=[-100, 100]), title='Dominanz (negativ ◀  ▶ positiv)'),
         tooltip=['Bindung', 'Status']
     )
     
